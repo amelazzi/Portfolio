@@ -5,7 +5,7 @@ const StyledSocialMedia = styled.div`
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    margin-left: 4px !important;
+    margin-right: 4px !important;
     :hover{
         cursor: pointer;
     }
