@@ -34,6 +34,9 @@ const StyledMenu = styled.div`
     a {
         color: white;
         padding: 0rem 1.8rem;
+        :last-child{
+            padding: 0rem;
+        }
         position: relative;
         text-decoration: none;
         font-weight: 700 !important;
