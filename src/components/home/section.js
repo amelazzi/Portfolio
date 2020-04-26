@@ -7,9 +7,9 @@ const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 8rem;
+    padding: 2rem 20rem;
     padding-top: 5rem;
-    height: 75vh;
+    height: 80vh;
     color: white;
 `;
 

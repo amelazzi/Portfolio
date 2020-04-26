@@ -6,7 +6,7 @@ import SocialMedia from "../components/SocialMedial"
 
 const StyledHeader = styled.div`
     background: ${gray};
-    padding: 1rem 8rem;
+    padding: 1rem 20rem;
     width: 100%;
     font-size: 18px;
     display: flex;
