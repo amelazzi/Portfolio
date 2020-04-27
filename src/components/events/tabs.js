@@ -64,6 +64,19 @@ class Tabs extends Component {
                             <SmallCard event="Google I/O"
                                 edition="2018 & 2019"
                                 role="Participant"/>
+                            <BigCard event="Google I/O"
+                                edition="2018 & 2019"
+                                role="Participant"/>
+                            <SmallCard event="Google I/O"
+                                edition="2018 & 2019"
+                                role="Participant"/>
+                            <SmallCard event="Google I/O"
+                                edition="2018 & 2019"
+                                role="Participant"
+                                marginTop="-8rem"/>
+                            <SmallCard event="Google I/O"
+                                edition="2018 & 2019"
+                                role="Participant"/>
                         </CardContainer>
                         ) : this.state.activeTab === 2?
                         (<h1> tab 2 </h1>):
