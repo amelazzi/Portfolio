@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { gray } from "../../styles/colors"
 
 import Card from './card'
+import Form from './form'
 
 
 const StyledSection = styled.div`
@@ -35,6 +36,7 @@ const Section = () => {
                 <Card icon={require("../../images/phone-icon.png")}
                     info="+33 669 57 35 82"/>
             </CardsContainer>
+            <Form/>
         </StyledSection>
     )
 }
