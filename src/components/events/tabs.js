@@ -92,7 +92,13 @@ class Tabs extends Component {
                 
                 <div>
                     {this.state.activeTab === 1 ? (
-                        <h1> tab 1 </h1>) : this.state.activeTab === 2?
+                        <CardContainer>
+                            <BigCard>
+                                <h1> Google I/O'19 </h1>
+                                <p> Attendee </p>
+                            </BigCard>
+                        </CardContainer>
+                        ) : this.state.activeTab === 2?
                         (<h1> tab 2 </h1>):
                         (<h1> tab 3 </h1>)}
                 </div>
