@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { gray, bordo } from "../../styles/colors"
 
+import BigCard from './bigCard'
+import SmallCard from './smallCard'
 
 const TabsBtn = styled.div`
     display: flex;
@@ -28,46 +30,9 @@ const CardContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
     margin-top: 2rem;
 `;
-
-const BigCard = styled.div`
-    width: 18.5rem;
-    height: 20rem;
-    background: white;
-    border-radius: 16px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    h1,p{
-        display: none;
-        margin: 0;
-    }
-
-    p{
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 16px;
-    }
-
-    :hover{
-        background: ${bordo};
-        opacity: 0.8;
-        cursor: pointer;
-        h1,p{
-            display: block;
-        }
-    }
-`;
-
-const SmallCard = styled(BigCard)`
-    height: 12rem;
-    background: red;
-`;
-
 
 class Tabs extends Component {
     constructor(props) {
@@ -82,7 +47,7 @@ class Tabs extends Component {
         return (
             <>
                 <TabsBtn>
-                    <button id="tab1" onClick={() => this.setState({ activeTab: 1 })}> 
+                    <button onClick={() => this.setState({ activeTab: 1 })}> 
                         All Events</button>
                     <button onClick={() => this.setState({ activeTab: 2 })}> 
                         Events </button>
@@ -93,10 +58,12 @@ class Tabs extends Component {
                 <div>
                     {this.state.activeTab === 1 ? (
                         <CardContainer>
-                            <BigCard>
-                                <h1> Google I/O'19 </h1>
-                                <p> Attendee </p>
-                            </BigCard>
+                            <BigCard event="Google I/O"
+                                edition="2018 & 2019"
+                                role="Participant"/>
+                            <SmallCard event="Google I/O"
+                                edition="2018 & 2019"
+                                role="Participant"/>
                         </CardContainer>
                         ) : this.state.activeTab === 2?
                         (<h1> tab 2 </h1>):
