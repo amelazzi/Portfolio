@@ -1,48 +1,41 @@
 import React from "react"
 import styled from 'styled-components'
 
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
+import 'react-circular-progressbar/dist/styles.css'
+
 import {gray, bordo} from '../../styles/colors'
 
 
 const StyledSkill = styled.div`
-`;
-
-const InfoContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     p{
         font-size: 16px;
-        margin: 0;
-        margin-bottom: 4px;
-        margin-top: 16px;
-        padding: 0;
+        margin-top: 8px;
     }
 `;
+const percentage = 66;
 
-const BackgroundBar = styled.div`
-    width: 100%;
-    height: 0.6rem;
-    background: ${gray};
-    border-radius: 8px;
-`;
-
-const ProgressiveBar = styled.div`
-    width: ${props=>props.progress};
-    height: 0.6rem;
-    background: ${bordo};
-    border-radius: 8px;
+const StyledCircularProgressbar = styled(CircularProgressbar)`
+    width: 7rem;
+    height: 7rem;
 `;
 
 const SoftSkill = ({name, progress}) => {
     return(
         <StyledSkill>
-            <InfoContainer>
-                <p> {name} </p>
-                <p> {progress} </p>
-            </InfoContainer>
-            <BackgroundBar>
-                <ProgressiveBar progress={progress}/>
-            </BackgroundBar>
+            <StyledCircularProgressbar strokeWidth = "5"
+                value={progress} text={`${progress}%`} 
+                styles={buildStyles({
+                    textSize: '13px',
+                    pathColor: `#D24D60`,
+                    textColor: 'white',
+                    trailColor: '#1E1E24',
+                    backgroundColor: '#1E1E24',
+                  })}/>
+            <p> {name} </p>
         </StyledSkill>
     )
 }

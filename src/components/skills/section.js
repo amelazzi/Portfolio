@@ -7,7 +7,7 @@ import SoftSkill from './softSkill'
 const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 5rem 20rem;
+    padding: 3rem 20rem;
     color: white;
     h1{
         text-align: center;
@@ -20,10 +20,19 @@ const StyledSection = styled.div`
 
 const ProSkillsContainer = styled.div`
     width: 50%;
+    margin-top: 1rem;
 `;
 
 const SoftSkillsContainer = styled.div`
-    width: 50%;
+    width: 45%;
+    margin-top: 1rem;
+`;
+
+const SoftSkills = styled.div`
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0rem 4.5rem;
 `;
 
 const Section = () => {
@@ -39,7 +48,12 @@ const Section = () => {
         </ProSkillsContainer>
         <SoftSkillsContainer>
             <h1> Soft Skills </h1>
-            <SoftSkill/>
+            <SoftSkills>
+                <SoftSkill name="Communication" progress="70"/>
+                <SoftSkill name="Team Work" progress="85"/>
+                <SoftSkill name="Project Management" progress="75"/>
+                <SoftSkill name="Creativity" progress="80"/>
+            </SoftSkills>
         </SoftSkillsContainer>
 
         </StyledSection>
