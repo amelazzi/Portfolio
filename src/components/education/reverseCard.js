@@ -6,7 +6,7 @@ import { bordo, gray } from "../../styles/colors";
 
 const StyledCard = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 16px;
 `
@@ -49,7 +49,7 @@ const CardContainer = styled.div`
     padding: 1.5rem;
     width: 26rem;
     height: 10rem;
-    margin-left: 4rem;
+    margin-right: 3.55rem;
     color: white;
     text-align: center;
     -webkit-box-shadow: -1rem 0 3rem #000;
@@ -85,14 +85,9 @@ const InfoContainer = styled.div`
 `;
 
 
-const Card = ({school, date, degree, field}) => {
+const reverseCard = ({school, date, degree, field}) => {
     return(
         <StyledCard>
-            <DividerContainer>
-                <Divider/>
-                <BackgroundEclipse/>
-                <FrontEclipse/>
-            </DividerContainer>
             <CardContainer>
                 <h1> {school} </h1>
                 <h4> {date} </h4>
@@ -105,8 +100,13 @@ const Card = ({school, date, degree, field}) => {
                     <p> {field} </p>
                 </InfoContainer>
             </CardContainer>
+            <DividerContainer>
+                <Divider/>
+                <BackgroundEclipse/>
+                <FrontEclipse/>
+            </DividerContainer>
         </StyledCard>
     )
 }
 
-export default Card
+export default reverseCard
