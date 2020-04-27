@@ -30,6 +30,14 @@ const Section = () => {
                 date="Sept 2019 - Present"
                 degree="Master"
                 field="Software Engineering "/>
+            <Card school="University of Paris-Est Marne-la-vallée"
+                date="Sept 2019 - Present"
+                degree="Master"
+                field="Software Engineering "/>
+            <ReverseCard school="University of Paris-Est Marne-la-vallée"
+                date="Sept 2019 - Present"
+                degree="Master"
+                field="Software Engineering "/>
         </StyledSection>
     )
 }
