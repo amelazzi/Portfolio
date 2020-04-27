@@ -20,7 +20,6 @@ const StyledCard = styled.div`
         padding: 0;
     }
     p{
-        text-align: left;
         font-size: 16px;
         padding: 0;
         margin: 0;
