@@ -7,6 +7,7 @@ import HomeSection from '../components/home/section'
 import AboutSection from '../components/about/section'
 import SkillsSection from '../components/skills/section'
 import ExperiencesSection from '../components/experiences/section'
+import EducationSection from '../components/education/section'
 
 
 const IndexPage = () => (
@@ -16,6 +17,7 @@ const IndexPage = () => (
         <AboutSection/>
         <SkillsSection/>
         <ExperiencesSection/>
+        <EducationSection/>
   </Layout>
 )
 
