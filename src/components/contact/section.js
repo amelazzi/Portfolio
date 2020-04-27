@@ -2,12 +2,11 @@ import React from "react"
 import styled from 'styled-components'
 import { gray } from "../../styles/colors"
 
-import Tabs from './tabs'
+import Card from './card'
 
 
 const StyledSection = styled.div`
     padding: 3rem 20rem;
-    background: ${gray};
     color: white;
     text-align: center;
     h1{
@@ -18,11 +17,19 @@ const StyledSection = styled.div`
     }
 `;
 
+const CardsContainer = styled.div`
+    displey: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+`;
+
 const Section = () => {
     return(
         <StyledSection>
-            <h1> EVENTS ATTENDED </h1>
-            <Tabs/>
+            <h1> CONTACT ME</h1>
+            <CardsContainer>
+                <Card/>
+            </CardsContainer>
         </StyledSection>
     )
 }
