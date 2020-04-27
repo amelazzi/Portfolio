@@ -29,7 +29,7 @@ const TabsBtn = styled.div`
 const CardContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-start;
     position: relative;
     margin-top: 2rem;
 `;
@@ -56,31 +56,45 @@ class Tabs extends Component {
                 </TabsBtn>
                 
                 <div>
-                    {this.state.activeTab === 1 ? (
+                    {this.state.activeTab === 1 ? 
+                    (
                         <CardContainer>
-                            <BigCard event="Google I/O"
-                                edition="2018 & 2019"
-                                role="Participant"/>
-                            <SmallCard event="Google I/O"
-                                edition="2018 & 2019"
-                                role="Participant"/>
-                            <BigCard event="Google I/O"
-                                edition="2018 & 2019"
-                                role="Participant"/>
-                            <SmallCard event="Google I/O"
-                                edition="2018 & 2019"
-                                role="Participant"/>
-                            <SmallCard event="Google I/O"
-                                edition="2018 & 2019"
-                                role="Participant"
-                                marginTop="-8rem"/>
-                            <SmallCard event="Google I/O"
-                                edition="2018 & 2019"
-                                role="Participant"/>
+                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                                marginLeft="2rem" marginRight="2rem"/>
+                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant" 
+                                marginTop="-8rem" marginLeft="2rem" marginRight="2rem"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                             <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant" 
+                                marginTop="-8rem" marginLeft="2rem" marginRight="2rem"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
                         </CardContainer>
-                        ) : this.state.activeTab === 2?
-                        (<h1> tab 2 </h1>):
-                        (<h1> tab 3 </h1>)}
+                    ) : this.state.activeTab === 2?
+                    (
+                        <CardContainer>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                                marginLeft="2rem" marginRight="2rem"/>
+                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                                marginTop="-8rem"/>
+                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                                marginTop="-8rem" marginLeft="2rem" marginRight="2rem"/>
+                        </CardContainer>
+                    ):
+                    (
+                        <CardContainer>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                                marginLeft="2rem" marginRight="2rem"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                                marginTop="-8rem"/>
+                        </CardContainer>
+                    )}
                 </div>
             </>
         );

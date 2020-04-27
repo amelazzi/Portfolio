@@ -10,6 +10,8 @@ const StyledCard = styled.div`
     border-radius: 16px;
     margin-bottom: 2rem;
     margin-top: ${props=>props.marginTop};
+    margin-left: ${props=>props.marginLeft};
+    margin-right: ${props=>props.marginRight};
 
     display: flex;
     flex-direction: column;
@@ -51,9 +53,9 @@ const EditionContainer = styled.div`
     }
 `;
 
-const Card = ({event, edition, role, marginTop}) => {
+const Card = ({event, edition, role, marginTop, marginLeft, marginRight}) => {
     return(
-        <StyledCard marginTop={marginTop}>
+        <StyledCard marginTop={marginTop} marginLeft={marginLeft} marginRight={marginRight}>
             <h1> {event} </h1>
             <EditionContainer>
                 <h2> Edition:  </h2>
