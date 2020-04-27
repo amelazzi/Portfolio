@@ -36,6 +36,7 @@ const StyledMenu = styled.div`
         padding: 0rem 1.8rem;
         :last-child{
             padding: 0rem;
+            padding-left: 1.8rem;
         }
         position: relative;
         text-decoration: none;
