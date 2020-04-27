@@ -13,19 +13,19 @@ const StyledCard = styled.div`
     box-shadow: -1rem 0 3rem #000;
     h4{
         font-size: 16px;
-        margin-top: 1.5rem;
+        margin-top: 16px;
         font-weight: 500;
         color: ${bordo};
     }
     h5{
-        margin-top: 16px !important;
+        margin-top: -0.5rem !important;
         font-size: 14px;
         color: white;
-        margin:0;
+        margin: 0;
     }
     p{
         text-align: left;
-        font-size: 18px; 
+        font-size: 16px; 
         padding: 0;
         margin: 0;
         margin-top: 8px;
