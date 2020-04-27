@@ -6,7 +6,7 @@ import Card from './card'
 
 
 const StyledSection = styled.div`
-    padding: 3rem 20rem;
+    padding: 4rem 20rem;
     color: white;
     text-align: center;
     h1{
@@ -18,9 +18,9 @@ const StyledSection = styled.div`
 `;
 
 const CardsContainer = styled.div`
-    displey: flex;
+    display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+    margin-top: 4rem;
 `;
 
 const Section = () => {
@@ -28,7 +28,12 @@ const Section = () => {
         <StyledSection>
             <h1> CONTACT ME</h1>
             <CardsContainer>
-                <Card/>
+                <Card icon={require("../../images/address-icon.png")}
+                    info="9B Rue Saint-Louis, Nantes 44300"/>
+                <Card icon={require("../../images/mail-icon.png")}
+                    info="amel.azzi@orange.com"/>
+                <Card icon={require("../../images/phone-icon.png")}
+                    info="+33 669 57 35 82"/>
             </CardsContainer>
         </StyledSection>
     )

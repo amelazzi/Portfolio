@@ -40,6 +40,7 @@ const IconContainer = styled.div`
     img{
         width:30%;
         height: 30%;
+        object-fit: contain;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -47,14 +48,14 @@ const IconContainer = styled.div`
     }
 `;
 
-const Card = ({icon, title, resume}) => {
+const Card = ({icon, info}) => {
     return(
         <StyledCard>
             <IconContainer>
-                <img src={require("../../images/address-icon.png")}/>
+                <img src={icon}/>
             </IconContainer>
             <h1> Email </h1>
-            <p> amel.azzi@orange.com </p>
+            <p> {info} </p>
         </StyledCard>
     )
 }

@@ -6,7 +6,7 @@ import Tabs from './tabs'
 
 
 const StyledSection = styled.div`
-    padding: 3rem 20rem;
+    padding: 4rem 20rem;
     background: ${gray};
     color: white;
     text-align: center;
