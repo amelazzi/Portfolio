@@ -18,7 +18,7 @@ const DividerContainer = styled.div`
 const Divider = styled.div`
     width: 0.3rem;
     height: 16rem;
-    background: white;
+    background: ${gray};
     position: absolute;
     border-radius: 8px;
     z-index: 1;
@@ -27,7 +27,7 @@ const Divider = styled.div`
 const BackgroundEclipse = styled.div`
     width: 1.5rem;
     height: 1.5rem;
-    background: white;
+    background: ${gray};
     border-radius: 100%;
     position: absolute;
     margin-left: -0.6rem;
