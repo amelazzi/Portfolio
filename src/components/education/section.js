@@ -20,7 +20,7 @@ const StyledSection = styled.div`
 
 const Section = () => {
     return(
-        <StyledSection>
+        <StyledSection id="education">
             <h1> MY EDUCATION </h1>
             <Card school="University of Paris-Est Marne-la-vallée"
                 date="Sept 2019 - Present"

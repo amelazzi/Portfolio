@@ -13,6 +13,7 @@ const StyledHeader = styled.div`
     position: fixed;
     align-items: center;
     justify-content: space-between;
+    box-shadow: -1rem 0 3rem ${dark};
     z-index: 5;
     * {
         margin: 0;
@@ -33,10 +34,10 @@ const StyledMenu = styled.div`
     }
     a {
         color: white;
-        padding: 0rem 1.8rem;
+        padding: 0rem 1rem;
         :last-child{
             padding: 0rem;
-            padding-left: 1.8rem;
+            padding-left: 1rem;
         }
         position: relative;
         text-decoration: none;
@@ -51,8 +52,8 @@ const StyledMenu = styled.div`
                 position: absolute;
                 bottom: 2px;
                 top: 1.5rem;
-                left: calc(3.2rem / 2);
-                width: calc(100% - 3.2rem);
+                left: calc(1rem / 2);
+                width: calc(100% - 1rem);
                 height: 2px;
                 background: ${bordo};
                 border-radius: 10px;
@@ -84,11 +85,13 @@ const Header = () => {
             </StyledSocialMedia>
             <StyledMenu>
                 <nav>
-                    <Link to="/"> Home </Link>
-                    <Link to="/"> About </Link>
-                    <Link to="/"> Services </Link>
-                    <Link to="/"> Portfolio </Link>
-                    <Link to="/"> Contact </Link>
+                    <Link to="/#home"> Home </Link>
+                    <Link to="/#about"> About </Link>
+                    <Link to="/#skills"> Skills </Link>
+                    <Link to="/#experiences"> Experiences </Link>
+                    <Link to="/#education"> Education </Link>
+                    <Link to="/#events"> Events </Link>
+                    <Link to="/#contact"> Contact </Link>
                 </nav>
             </StyledMenu>
         </StyledHeader>

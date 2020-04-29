@@ -29,7 +29,7 @@ const VolunteeringExperiences = styled.div`
 
 const Section = () => {
     return(
-        <StyledSection>
+        <StyledSection id="experiences">
         <WorkExperiences>
             <h1> Work Experience </h1>
             <WorkCard role="Intern" company="Orange Business Services"

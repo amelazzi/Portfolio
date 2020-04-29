@@ -20,7 +20,7 @@ const StyledSection = styled.div`
 
 const Section = () => {
     return(
-        <StyledSection>
+        <StyledSection id="events">
             <h1> EVENTS ATTENDED </h1>
             <Tabs/>
         </StyledSection>

@@ -61,7 +61,7 @@ const PictureContainer = styled.div`
 
 const Section = () => {
     return(
-        <StyledSection>
+        <StyledSection id="home">
             <Information>
                 <StyledHello>
                     <p> Hello I'm </p>

@@ -37,7 +37,7 @@ const SoftSkills = styled.div`
 
 const Section = () => {
     return(
-        <StyledSection>
+        <StyledSection id="skills">
         <ProSkillsContainer>
             <h1> Professional Skills </h1>
             <ProSkills name="Java" progress="70%"/>

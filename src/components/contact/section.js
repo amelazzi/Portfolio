@@ -38,7 +38,7 @@ const Maps = styled.div`
 
 const Section = () => {
     return(
-        <StyledSection>
+        <StyledSection id="contact">
             <h1> CONTACT ME</h1>
             <CardsContainer>
                 <Card icon={require("../../images/address-icon.png")}

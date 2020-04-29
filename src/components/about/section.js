@@ -13,7 +13,7 @@ const StyledSection = styled.div`
 
 const Section = () => {
     return(
-        <StyledSection>
+        <StyledSection id="about">
             <AboutMe/>
             <WhatIDO/>
         </StyledSection>
