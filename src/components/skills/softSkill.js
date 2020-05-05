@@ -30,7 +30,7 @@ const SoftSkill = ({name, progress}) => {
                 value={progress} text={`${progress}%`} 
                 styles={buildStyles({
                     textSize: '13px',
-                    pathColor: `#D24D60`,
+                    pathColor: `#FF4F5B`,
                     textColor: 'white',
                     trailColor: '#1E1E24',
                     backgroundColor: '#1E1E24',
