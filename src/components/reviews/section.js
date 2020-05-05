@@ -1,13 +1,14 @@
 import React from "react"
+import Slider from 'react-styled-carousel'
+
 import styled from 'styled-components'
-import { gray, dark } from "../../styles/colors"
 
 import ReviewCard from './reviewCard'
 
 
 const StyledSection = styled.div`
     padding: 4rem 20rem;
-    background: ${dark};
+    background: white;
     color: white;
     text-align: center;
     h1{
@@ -19,16 +20,26 @@ const StyledSection = styled.div`
 `;
 
 
+
+
 const Section = () => {
     return(
         <StyledSection>
             <h1> REVIEWS</h1>
-            <ReviewCard review="You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving. You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
+            <Slider autoSlide={false} cardsToShow={1}>
+                <ReviewCard review="You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving. You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
+                        You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
+                        You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving."
+                    fullName="Amel AZZI"
+                    role="Developper"
+                    company="Orange"/>
+                <ReviewCard review="You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving. You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
                     You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
                     You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving."
-                fullName="Amel AZZI"
+                fullName="Adel AZZI"
                 role="Developper"
                 company="Orange"/>
+            </Slider>
         </StyledSection>
     )
 }
