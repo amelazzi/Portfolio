@@ -7,7 +7,7 @@ import WhatIDO from './whatIdo'
 
 const StyledSection = styled.div`
     background: ${gray};
-    padding: 5rem 20rem;
+    padding: 4rem 20rem;
     color: white;
 `;
 

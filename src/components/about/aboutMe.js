@@ -13,9 +13,13 @@ const StyledSection = styled.div`
 `;
 
 const PictureContainer = styled.div`
-    width: 45%;
+    width: 50%;
     height: 35vh;
-    background: white;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 `;
 
 const OverView = styled.div`
@@ -78,7 +82,9 @@ const IconContainer = styled.div`
 const AboutMe = () => {
     return(
         <StyledSection>
-            <PictureContainer/>
+            <PictureContainer>
+                <img src={require("../../images/about-picture.png")}/>
+            </PictureContainer>
             <OverView>
                 <h1> ABOUT ME </h1>
                 <p> Hello, I’m Amel, Software Engineer base at Nantes - Paris. I have a rich experience in Web/Mobile design & building. I’m also good at  </p>
