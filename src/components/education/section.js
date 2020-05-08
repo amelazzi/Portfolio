@@ -16,6 +16,15 @@ const StyledSection = styled.div`
         margin-bottom: 6rem;
         padding: 0;
     }
+
+    @media (max-width: 35em) {
+        padding: 2rem;
+        padding-bottom: 4rem;
+        margin-top: 1rem;
+        h1{
+            margin-bottom: 4rem;
+        }
+    }
 `;
 
 const Section = () => {

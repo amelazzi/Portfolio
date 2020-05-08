@@ -9,6 +9,10 @@ const StyledCard = styled.div`
     justify-content: flex-end;
     align-items: center;
     margin-top: 16px;
+    @media (max-width: 35em) {
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
 `
 
 const DividerContainer = styled.div`
@@ -74,6 +78,12 @@ const CardContainer = styled.div`
         margin: 0;
         font-size: 16px;
         font-weight: 700;
+    }
+
+    @media (max-width: 35em) {
+        width: 100%;
+        height: auto;
+        margin-left: 2rem;
     }
 `;
 
