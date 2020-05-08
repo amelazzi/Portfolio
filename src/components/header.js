@@ -3,6 +3,14 @@ import React from "react"
 import styled from 'styled-components'
 import { bordo, dark, gray } from "../styles/colors"
 import SocialMedia from "../components/SocialMedial"
+import Modal from "./modal"
+import { ModalProvider, BaseModalBackground } from "styled-react-modal"
+
+
+const FadingBackground = styled(BaseModalBackground)`
+  opacity: 0.96;
+  transition: opacity ease 200ms;
+`;
 
 const StyledHeader = styled.div`
     background: ${gray};
@@ -89,7 +97,9 @@ const Header = () => {
                     imgBackground={require("../images/facebook.png")}
                     link="https://www.facebook.com/misa.chan.9277"/>
             </StyledSocialMedia>
-
+            <ModalProvider backgroundComponent={FadingBackground}>
+                <Modal/>
+            </ModalProvider>
             <StyledMenu>
                 <nav>
                     <Link to="/#home"> Home </Link>
