@@ -1,7 +1,8 @@
 import React from "react"
 
 import styled from 'styled-components'
-import { bordo, gray } from "../../styles/colors";
+import { bordo, gray } from "../../styles/colors"
+import resumePDF from "../../Resume_Amel_AZZI.pdf"
 
 const StyledSection = styled.div`
     background: ${gray};
@@ -65,7 +66,8 @@ const Skill = styled.div`
     }
 `;
 
-const DownloadCV = styled.button`
+const DownloadCV = styled.a`
+    width: 11rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,12 +78,13 @@ const DownloadCV = styled.button`
     color: white;
     font-weight: 600;
     margin-top: 20px;
+    text-decoration: none;
 `;
 
 const IconContainer = styled.div`
     width: 1rem;
     height: 1rem;
-    margin-left: 8px;
+    margin-left: 4px;
     img{
         width: 100%;
         height: 100;
@@ -107,12 +110,12 @@ const AboutMe = () => {
                     <Skill> GitHub </Skill>
                     <Skill> Graphic Design </Skill>
                 </SkillsContainer>
-                <DownloadCV> 
+                <DownloadCV href={resumePDF} download> 
                     Download CV 
                     <IconContainer>
                         <img src={require("../../images/download-icon.png")} />
                     </IconContainer>    
-                </DownloadCV>
+                </DownloadCV>{` `}
             </OverView>
         </StyledSection>
     )
