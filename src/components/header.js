@@ -58,8 +58,7 @@ const StyledMenu = styled.div`
                 background: ${bordo};
                 border-radius: 10px;
             }
-        }
-        
+        } 
     }
 `;
 
@@ -83,6 +82,7 @@ const Header = () => {
                     imgBackground={require("../images/facebook.png")}
                     link="https://www.facebook.com/misa.chan.9277"/>
             </StyledSocialMedia>
+
             <StyledMenu>
                 <nav>
                     <Link to="/#home"> Home </Link>

@@ -3,7 +3,7 @@ import React from "react"
 import styled from 'styled-components'
 import { dark, gray, bordo } from "../../styles/colors";
 
-const StyledForm = styled.div`
+const StyledForm = styled.form`
     width: 48%;
 `;
 
@@ -69,13 +69,16 @@ const StyledSubmmit = styled.input`
 
 const Form = ({}) => {
     return(
-        <StyledForm>
+        <StyledForm name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field">
             <FullName>
-                <StyledInput placeholder="First Name"/>
-                <StyledInput placeholder="Last Name"/>
+                <StyledInput name="firstname" placeholder="First Name"/>
+                <StyledInput name="lastname" placeholder="Last Name"/>
             </FullName>
-            <EmailInput placeholder="Your Email"/>
-            <StyledTextArea placeholder="Your Message"/>
+            <EmailInput name="email" placeholder="Your Email"/>
+            <StyledTextArea name="message" placeholder="Your Message"/>
             <StyledSubmmit type="submit" value="Send Message"/>
         </StyledForm>
     )

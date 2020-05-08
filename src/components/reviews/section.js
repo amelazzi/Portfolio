@@ -4,11 +4,12 @@ import Slider from 'react-styled-carousel'
 import styled from 'styled-components'
 
 import ReviewCard from './reviewCard'
+import { dark } from "../../styles/colors";
 
 
 const StyledSection = styled.div`
     padding: 4rem 20rem;
-    background: white;
+    background: ${dark};
     color: white;
     text-align: center;
     h1{
