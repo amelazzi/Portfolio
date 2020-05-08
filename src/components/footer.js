@@ -21,10 +21,18 @@ const StyledFooter = styled.div`
         color: white;
         font-size: 16px;
     }
+    @media (max-width: 35em) {
+        width: 100%;
+        padding: 2rem;
+        flex-direction: column;
+    }
 `;
 
 const StyledSocialMedia = styled.div`
     display: felx;
+    @media (max-width: 35em) {
+        margin-top: 1rem;
+    }
 `;
 
 
