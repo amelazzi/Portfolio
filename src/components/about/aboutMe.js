@@ -10,6 +10,9 @@ const StyledSection = styled.div`
     align-items: center;
     width: 100%;
     color: white;
+    @media (max-width: 35em) {
+        flex-direction: column;
+    }
 `;
 
 const PictureContainer = styled.div`
@@ -19,6 +22,10 @@ const PictureContainer = styled.div`
         width: 100%;
         height: 100%;
         object-fit: contain;
+    }
+    @media (max-width: 35em) {
+        width: 100%;
+        height: auto;
     }
 `;
 
@@ -32,6 +39,10 @@ const OverView = styled.div`
     p{
         font-size: 18px; 
         margin-top: 16px;
+    }
+    @media (max-width: 35em) {
+        width: 100%;
+        margin-top: 2rem;
     }
 `;
 
