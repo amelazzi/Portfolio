@@ -16,16 +16,30 @@ const StyledSection = styled.div`
         margin-bottom: 4rem;
         padding: 0;
     }
+    @media (max-width: 35em) {
+        flex-direction: column;
+        padding: 2rem;
+        h1{
+            margin-bottom: 1rem;
+        }
+    }
 `;
 
 const ProSkillsContainer = styled.div`
     width: 50%;
     margin-top: 1rem;
+    @media (max-width: 35em) {
+        width: 100%;
+    }
 `;
 
 const SoftSkillsContainer = styled.div`
     width: 45%;
     margin-top: 1rem;
+    @media (max-width: 35em) {
+        width: 100%;
+        margin-top: 4rem;
+    }
 `;
 
 const SoftSkills = styled.div`
@@ -33,6 +47,11 @@ const SoftSkills = styled.div`
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0rem 4.5rem;
+
+    @media (max-width: 35em) {
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+    }
 `;
 
 const Section = () => {
