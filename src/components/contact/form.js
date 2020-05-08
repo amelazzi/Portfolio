@@ -14,6 +14,9 @@ const FullName = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @media (max-width: 35em) {
+        flex-direction: column;
+    }
 `;
 
 const StyledInput = styled.input`
@@ -30,6 +33,9 @@ const StyledInput = styled.input`
         color: white;
         font-size: 16px;
     }  
+    @media (max-width: 35em) {
+        width: 100%;
+    }
 `;
 
 const EmailInput = styled(StyledInput)`
@@ -51,6 +57,9 @@ const StyledTextArea = styled.textarea`
         color: white;
         font-size: 16px;
     } 
+    @media (max-width: 35em) {
+        height: 30vh;
+    }
 `;
 
 const StyledSubmmit = styled.input`
