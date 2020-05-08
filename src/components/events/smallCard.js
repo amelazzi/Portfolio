@@ -37,6 +37,11 @@ const StyledCard = styled.div`
             display: block;
         }
     }
+
+    @media (max-width: 35em) {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
 `;
 
 const EditionContainer = styled.div`

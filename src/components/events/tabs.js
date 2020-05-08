@@ -24,6 +24,11 @@ const TabsBtn = styled.div`
             cursor: pointer;
         }
     }
+    @media (max-width: 35em) {
+        button{
+            margin: 0.5rem 1rem;
+        }
+    }
 `;
 
 const CardContainer = styled.div`
@@ -32,6 +37,10 @@ const CardContainer = styled.div`
     justify-content: space-start;
     position: relative;
     margin-top: 2rem;
+
+    @media (max-width: 35em) {
+        justify-content: center;
+    }
 `;
 
 class Tabs extends Component {
