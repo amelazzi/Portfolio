@@ -11,6 +11,12 @@ const StyledSection = styled.div`
     padding-top: 5rem;
     height: 80vh;
     color: white;
+    @media (max-width: 35em) {
+        flex-direction: column-reverse;
+        padding: 2rem;
+        padding-top: 6rem;
+        height: auto;
+    }
 `;
 
 const Information = styled.div`
@@ -25,6 +31,11 @@ const Information = styled.div`
     }
     p{
         font-size: 18px; 
+    }
+    @media (max-width: 35em){
+        width: 100%;
+        padding: 0;
+        margin-top: 32px;
     }
 `;
 
@@ -50,6 +61,7 @@ const StyledPicture = styled.div`
     border-color: black;
     border-width: 20px;
     padding: 16px;
+    
 `;
 
 const PictureContainer = styled.div`
@@ -74,7 +86,7 @@ const Section = () => {
                 <h1> Amel AZZI </h1>
                 <h2> Software Engineer </h2>
                 <p> You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.
-You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures. </p>
+                You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures. </p>
             </Information>
             <StyledPicture>
                 <PictureContainer>

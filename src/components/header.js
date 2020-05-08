@@ -25,7 +25,7 @@ const StyledSocialMedia = styled.div`
 `;
 
 const StyledMenu = styled.div`
-  display: flex;
+    display: flex;
     nav {
         display: flex;
         flex-flow: row nowrap;
