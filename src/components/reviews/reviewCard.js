@@ -12,6 +12,11 @@ const StyledCard = styled.div`
     color: white;
     -webkit-box-shadow: -1rem 0 3rem #000;
     box-shadow: -1rem 0 3rem #000;
+    @media (max-width: 35em) {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
 `;
 
 const IconContainer = styled.div`
@@ -45,6 +50,9 @@ const Container = styled.div`
         font-size: 26px !important;
         padding-top: 1rem !important;
         padding-bottom: 0.4rem !important;
+    }
+    @media (max-width: 35em) {
+        margin-left: 0;
     }
 `;
 
