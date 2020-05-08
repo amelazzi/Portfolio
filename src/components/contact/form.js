@@ -70,7 +70,7 @@ const StyledSubmmit = styled.input`
 const Form = ({}) => {
     return(
         <StyledForm name="contact"
-            method="POST"
+            method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field">
             <FullName>
