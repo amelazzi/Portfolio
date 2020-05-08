@@ -26,6 +26,11 @@ const StyledSection = styled.div`
     }
 `;
 
+const StyledSlider = styled(Slider)`
+    width: 100%;
+    padding: 0;
+`;
+
 
 
 
@@ -33,7 +38,7 @@ const Section = () => {
     return(
         <StyledSection>
             <h1> REVIEWS</h1>
-            <Slider autoSlide={false} cardsToShow={1}>
+            <StyledSlider autoSlide={false} showArrows={false} cardsToShow={1}>
                 <ReviewCard review="You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving. You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
                         You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
                         You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving."
@@ -46,7 +51,7 @@ const Section = () => {
                 fullName="Adel AZZI"
                 role="Developper"
                 company="Orange"/>
-            </Slider>
+            </StyledSlider>
         </StyledSection>
     )
 }

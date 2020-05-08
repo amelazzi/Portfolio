@@ -61,6 +61,10 @@ const StyledPicture = styled.div`
     border-color: black;
     border-width: 20px;
     padding: 16px;
+    @media (max-width: 35em) {
+        width: 50vh;
+        height: 50vh;
+    }
     
 `;
 

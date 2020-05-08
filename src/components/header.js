@@ -18,6 +18,10 @@ const StyledHeader = styled.div`
     * {
         margin: 0;
     }
+
+    @media (max-width: 35em) {
+        padding: 1rem 2rem;
+    }
 `;
 
 const StyledSocialMedia = styled.div`
@@ -59,6 +63,9 @@ const StyledMenu = styled.div`
                 border-radius: 10px;
             }
         } 
+    }
+    @media (max-width: 35em) {
+        display: none;
     }
 `;
 

@@ -15,7 +15,9 @@ const StyledCard = styled.div`
     @media (max-width: 35em) {
         flex-direction: column;
         align-items: center;
-        margin: 2rem;
+        margin: 0rem;
+        margin-top: 2rem;
+        box-shadow: none;
     }
 `;
 
