@@ -14,7 +14,7 @@ const MenuIcon = styled.img`
     }
     @media (max-width: 35em) {
         display: block;
-        margin-left: 55% !important;
+        margin-left: 45% !important;
     }
 `;
 
