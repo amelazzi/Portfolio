@@ -51,6 +51,9 @@ const StyledHello = styled.div`
         padding: 0;
         margin: 0;
     }
+    @media (max-width: 35em) {
+        width: 6rem;
+    }
 `;
 
 const StyledPicture = styled.div`
@@ -64,8 +67,7 @@ const StyledPicture = styled.div`
     @media (max-width: 35em) {
         width: 50vh;
         height: 50vh;
-    }
-    
+    } 
 `;
 
 const PictureContainer = styled.div`

@@ -24,7 +24,7 @@ const StyledModal = Modal.styled`
     display: flex;
     flex-direction: column;
     background-color: ${dark};
-    padding: 1rem;
+    padding: 2rem;
     opacity: ${props => props.opacity};
     img{
         width: 1.5rem;
