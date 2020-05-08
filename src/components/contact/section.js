@@ -18,22 +18,39 @@ const StyledSection = styled.div`
         margin-bottom: 6rem;
         padding: 0;
     }
+    @media (max-width: 35em) {
+        padding: 0rem 2rem;
+        h1{
+            margin-bottom: 4rem;
+        }
+    }
 `;
 
 const CardsContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
+    @media (max-width: 35em) {
+        flex-direction: column;
+    }
 `;
 
 const FormContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
+    @media (max-width: 35em) {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
 `;
 
 const Maps = styled.div`
     width: 48%;
+    @media (max-width: 35em) {
+        width: 100%;
+        margin-top: 2rem;
+    }
 `;
 
 const Section = () => {

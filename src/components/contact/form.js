@@ -5,6 +5,9 @@ import { dark, gray, bordo } from "../../styles/colors";
 
 const StyledForm = styled.form`
     width: 48%;
+    @media (max-width: 35em) {
+        width: 100%;
+    }
 `;
 
 const FullName = styled.div`
