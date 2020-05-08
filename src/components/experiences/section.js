@@ -15,16 +15,30 @@ const StyledSection = styled.div`
         margin-bottom: 4rem;
         padding: 0;
     }
+    @media (max-width: 35em) {
+        padding: 0rem 2rem;
+        flex-direction: column;
+        h1{
+            margin-bottom: 2rem;
+        }
+    }
 `;
 
 const WorkExperiences = styled.div`
     width: 45%;
     margin-top: 1rem;
+    @media (max-width: 35em) {
+        width: 100%;
+    }
 `;
 
 const VolunteeringExperiences = styled.div`
     width: 45%;
     margin-top: 1rem;
+    @media (max-width: 35em) {
+        width: 100%;
+        margin-top: 2rem;
+    }
 `;
 
 const Section = () => {
