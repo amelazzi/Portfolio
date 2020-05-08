@@ -69,12 +69,17 @@ const StyledSubmmit = styled.input`
 
 const Form = ({}) => {
     return(
-        <form name="contact"
+        <StyledForm name="contact"
             method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field">
+            data-netlify="true">
+            <FullName>
                 <StyledInput name="firstname" placeholder="First Name"/>
-        </form>
+                <StyledInput name="lastname" placeholder="Last Name"/>
+            </FullName>
+            <EmailInput name="email" placeholder="Your Email"/>
+            <StyledTextArea name="message" placeholder="Your Message"/>
+            <StyledSubmmit type="submit" value="Send Message"/>
+        </StyledForm>
     )
 }
 

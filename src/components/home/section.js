@@ -55,8 +55,13 @@ const StyledPicture = styled.div`
 const PictureContainer = styled.div`
     width: 100%;
     height: 100%;
-    background: white;
     border-radius: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: fill;
+    }
 `;
 
 const Section = () => {
@@ -72,7 +77,9 @@ const Section = () => {
 You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures. </p>
             </Information>
             <StyledPicture>
-                <PictureContainer/>
+                <PictureContainer>
+                    <img src={require("../../images/profile-picture.png")} />
+                </PictureContainer>
             </StyledPicture>
         </StyledSection>
     )
