@@ -26,6 +26,10 @@ const StyledCard = styled.div`
         margin: 0;
         padding: 0;
     }
+    @media (max-width: 35em) {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 `;
 
 const IconContainer = styled.div`

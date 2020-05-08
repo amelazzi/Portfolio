@@ -8,18 +8,21 @@ const StyledSection = styled.div`
     width: 100%;
     color: white;
     text-align: center;
-
     h1{
         font-size: 32px;
         margin: 0;
         padding: 0;
     }
+
 `;
 
 const CardsContainer = styled.div`
     margin-top: 4rem;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 35em) {
+        flex-direction: column;
+    }
 `;
 
 const WhatIDo = () => {
