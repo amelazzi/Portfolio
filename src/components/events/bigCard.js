@@ -38,10 +38,13 @@ const StyledCard = styled.div`
         }
     }
 
-    @media (max-width: 62em) {
+    @media (max-width: 75em) {
         margin: 0;
         margin-bottom: 2rem;
+        width: 17rem;
+        height: 19rem;
     }
+
 `;
 
 const EditionContainer = styled.div`

@@ -30,6 +30,9 @@ const StyledHeader = styled.div`
     @media (max-width: 62em) {
         padding: 1rem 2rem;
     }
+    @media (min-width: 62.1em) and (max-width: 75em)  {
+        padding: 1rem 6rem;
+    }
 `;
 
 const StyledSocialMedia = styled.div`

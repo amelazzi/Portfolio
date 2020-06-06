@@ -30,6 +30,11 @@ const StyledSection = styled.div`
         padding: 4rem 2rem;
         padding-bottom: 8rem;
     }
+
+    @media (min-width: 62.1em) and (max-width: 75em)  {
+        padding: 4rem 6rem;
+        padding-bottom: 8rem;
+    }
 `;
 
 const Section = () => {

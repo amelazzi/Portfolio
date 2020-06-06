@@ -33,6 +33,10 @@ const PictureContainer = styled.div`
         width: 45%;
         height: auto;
     }
+    @media (min-width: 62.1em) and (max-width: 75em)  {
+        width: 45%;
+        height: auto;
+    }
 `;
 
 const OverView = styled.div`

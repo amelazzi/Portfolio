@@ -26,6 +26,9 @@ const StyledSection = styled.div`
     @media (min-width: 48.1em) and (max-width: 62em) {
         padding: 4rem 2rem;
     }
+    @media (min-width: 62.1em) and (max-width: 75em)  {
+        padding: 4rem 6rem;
+    }
 `;
 
 const ProSkillsContainer = styled.div`
