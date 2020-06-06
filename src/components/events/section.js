@@ -1,6 +1,6 @@
 import React from "react"
 import styled from 'styled-components'
-import { gray } from "../../styles/colors"
+import { gray, bordo } from "../../styles/colors"
 
 import Tabs from './tabs'
 
@@ -22,6 +22,10 @@ const StyledSection = styled.div`
         h1{
             margin-bottom: 4rem;
         }
+    }
+
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 4rem 2rem;
     }
 `;
 

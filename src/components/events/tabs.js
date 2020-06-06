@@ -41,6 +41,10 @@ const CardContainer = styled.div`
     @media (max-width: 48em) {
         justify-content: center;
     }
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        align-items: center;
+        justify-content: space-around;
+    }
 `;
 
 class Tabs extends Component {
