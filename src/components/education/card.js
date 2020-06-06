@@ -85,6 +85,11 @@ const CardContainer = styled.div`
         height: auto;
         margin-left: 2rem;
     }
+
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        width: 42.45%;
+        height: 12rem;
+    }
 `;
 
 const InfoContainer = styled.div`
