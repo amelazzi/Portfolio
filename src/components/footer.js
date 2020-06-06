@@ -26,6 +26,9 @@ const StyledFooter = styled.div`
         padding: 2rem;
         flex-direction: column;
     }
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 2rem;
+    }
 `;
 
 const StyledSocialMedia = styled.div`
