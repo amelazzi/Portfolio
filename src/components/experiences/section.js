@@ -22,6 +22,9 @@ const StyledSection = styled.div`
             margin-bottom: 2rem;
         }
     }
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 0rem 2rem;
+    }
 `;
 
 const WorkExperiences = styled.div`
@@ -29,6 +32,9 @@ const WorkExperiences = styled.div`
     margin-top: 1rem;
     @media (max-width: 48em) {
         width: 100%;
+    }
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        width: 48%;
     }
 `;
 
@@ -38,6 +44,9 @@ const VolunteeringExperiences = styled.div`
     @media (max-width: 48em) {
         width: 100%;
         margin-top: 2rem;
+    }
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        width: 48%;
     }
 `;
 
