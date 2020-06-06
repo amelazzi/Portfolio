@@ -12,7 +12,7 @@ const MenuIcon = styled.img`
     :hover{
         cursor: pointer;
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         display: block;
         margin-left: 47% !important;
     }

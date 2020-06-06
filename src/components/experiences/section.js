@@ -15,7 +15,7 @@ const StyledSection = styled.div`
         margin-bottom: 4rem;
         padding: 0;
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         padding: 0rem 2rem;
         flex-direction: column;
         h1{
@@ -27,7 +27,7 @@ const StyledSection = styled.div`
 const WorkExperiences = styled.div`
     width: 45%;
     margin-top: 1rem;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
     }
 `;
@@ -35,7 +35,7 @@ const WorkExperiences = styled.div`
 const VolunteeringExperiences = styled.div`
     width: 45%;
     margin-top: 1rem;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
         margin-top: 2rem;
     }

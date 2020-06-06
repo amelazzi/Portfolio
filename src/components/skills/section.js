@@ -16,7 +16,7 @@ const StyledSection = styled.div`
         margin-bottom: 4rem;
         padding: 0;
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         flex-direction: column;
         padding: 2rem;
         h1{
@@ -28,7 +28,7 @@ const StyledSection = styled.div`
 const ProSkillsContainer = styled.div`
     width: 50%;
     margin-top: 1rem;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
     }
 `;
@@ -36,7 +36,7 @@ const ProSkillsContainer = styled.div`
 const SoftSkillsContainer = styled.div`
     width: 45%;
     margin-top: 1rem;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
         margin-top: 4rem;
     }
@@ -48,7 +48,7 @@ const SoftSkills = styled.div`
     flex-wrap: wrap;
     padding: 0rem 4.5rem;
 
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         padding: 0rem 2rem;
         margin-top: 2rem;
     }

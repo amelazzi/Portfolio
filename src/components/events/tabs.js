@@ -24,7 +24,7 @@ const TabsBtn = styled.div`
             cursor: pointer;
         }
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         button{
             margin: 0.5rem 1rem;
         }
@@ -38,7 +38,7 @@ const CardContainer = styled.div`
     position: relative;
     margin-top: 2rem;
 
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         justify-content: center;
     }
 `;

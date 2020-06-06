@@ -9,7 +9,7 @@ const StyledCard = styled.div`
     justify-content: flex-end;
     align-items: center;
     margin-top: 16px;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         margin-bottom: 2rem;
         margin-top: 0;
     }
@@ -80,7 +80,7 @@ const CardContainer = styled.div`
         font-weight: 700;
     }
 
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
         height: auto;
         margin-left: 2rem;

@@ -20,7 +20,7 @@ const CardsContainer = styled.div`
     margin-top: 4rem;
     display: flex;
     justify-content: space-between;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         flex-direction: column;
     }
 `;

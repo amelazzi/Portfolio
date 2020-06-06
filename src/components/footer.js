@@ -21,7 +21,7 @@ const StyledFooter = styled.div`
         color: white;
         font-size: 16px;
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
         padding: 2rem;
         flex-direction: column;
@@ -30,7 +30,7 @@ const StyledFooter = styled.div`
 
 const StyledSocialMedia = styled.div`
     display: felx;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         margin-top: 1rem;
     }
 `;

@@ -27,7 +27,7 @@ const StyledHeader = styled.div`
         margin: 0;
     }
 
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         padding: 1rem 2rem;
     }
 `;
@@ -72,7 +72,7 @@ const StyledMenu = styled.div`
             }
         } 
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         display: none;
     }
 `;

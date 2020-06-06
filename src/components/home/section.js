@@ -11,7 +11,7 @@ const StyledSection = styled.div`
     padding-top: 5rem;
     height: 80vh;
     color: white;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         flex-direction: column-reverse;
         padding: 2rem;
         padding-top: 6rem;
@@ -32,7 +32,7 @@ const Information = styled.div`
     p{
         font-size: 18px; 
     }
-    @media (max-width: 35em){
+    @media (max-width: 48em){
         width: 100%;
         padding: 0;
         margin-top: 32px;
@@ -51,7 +51,7 @@ const StyledHello = styled.div`
         padding: 0;
         margin: 0;
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 6rem;
     }
 `;
@@ -64,7 +64,7 @@ const StyledPicture = styled.div`
     border-color: black;
     border-width: 20px;
     padding: 16px;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 50vh;
         height: 50vh;
     } 

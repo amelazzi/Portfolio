@@ -18,7 +18,7 @@ const StyledSection = styled.div`
         margin-bottom: 6rem;
         padding: 0;
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         padding: 0rem 2rem;
         h1{
             margin-bottom: 4rem;
@@ -30,7 +30,7 @@ const CardsContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         flex-direction: column;
     }
 `;
@@ -39,7 +39,7 @@ const FormContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         flex-direction: column;
         margin-top: 2rem;
     }
@@ -47,8 +47,9 @@ const FormContainer = styled.div`
 
 const Maps = styled.div`
     width: 48%;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
+        height: 50vh;
         margin-top: 2rem;
     }
 `;

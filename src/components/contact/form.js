@@ -5,7 +5,7 @@ import { dark, gray, bordo } from "../../styles/colors";
 
 const StyledForm = styled.form`
     width: 48%;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
     }
 `;
@@ -14,7 +14,7 @@ const FullName = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         flex-direction: column;
     }
 `;
@@ -33,7 +33,7 @@ const StyledInput = styled.input`
         color: white;
         font-size: 16px;
     }  
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
     }
 `;
@@ -57,7 +57,7 @@ const StyledTextArea = styled.textarea`
         color: white;
         font-size: 16px;
     } 
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         height: 30vh;
     }
 `;

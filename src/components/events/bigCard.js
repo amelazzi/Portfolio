@@ -38,7 +38,7 @@ const StyledCard = styled.div`
         }
     }
 
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         margin: 0;
         margin-bottom: 2rem;
     }

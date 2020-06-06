@@ -25,7 +25,7 @@ const StyledCard = styled.div`
         margin: 0;
         margin-top: 8px;
     }
-    @media (max-width: 35em) {
+    @media (max-width: 48em) {
         width: 100%;
         margin-bottom: 2rem;
     }
