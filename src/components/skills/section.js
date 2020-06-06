@@ -23,6 +23,9 @@ const StyledSection = styled.div`
             margin-bottom: 1rem;
         }
     }
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 4rem 2rem;
+    }
 `;
 
 const ProSkillsContainer = styled.div`
@@ -51,6 +54,10 @@ const SoftSkills = styled.div`
     @media (max-width: 48em) {
         padding: 0rem 2rem;
         margin-top: 2rem;
+    }
+
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 0rem 2rem;
     }
 `;
 

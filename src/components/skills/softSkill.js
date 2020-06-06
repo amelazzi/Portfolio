@@ -16,7 +16,6 @@ const StyledSkill = styled.div`
         margin-top: 8px;
     }
 `;
-const percentage = 66;
 
 const StyledCircularProgressbar = styled(CircularProgressbar)`
     width: 7rem;
