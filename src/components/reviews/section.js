@@ -24,6 +24,10 @@ const StyledSection = styled.div`
             margin-bottom: 4rem;
         }
     }
+
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 4rem 2rem;
+    }
 `;
 
 const StyledSlider = styled(Slider)`
