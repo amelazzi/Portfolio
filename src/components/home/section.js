@@ -17,6 +17,12 @@ const StyledSection = styled.div`
         padding-top: 6rem;
         height: auto;
     }
+
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 2rem;
+        padding-top: 6rem;
+        height: auto;
+    }
 `;
 
 const Information = styled.div`
@@ -36,6 +42,10 @@ const Information = styled.div`
         width: 100%;
         padding: 0;
         margin-top: 32px;
+    }
+
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        width: 60%;
     }
 `;
 
@@ -64,7 +74,7 @@ const StyledPicture = styled.div`
     border-color: black;
     border-width: 20px;
     padding: 16px;
-    @media (max-width: 48em) {
+    @media (max-width: 62em) {
         width: 50vh;
         height: 50vh;
     } 

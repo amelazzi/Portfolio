@@ -27,7 +27,7 @@ const StyledHeader = styled.div`
         margin: 0;
     }
 
-    @media (max-width: 48em) {
+    @media (max-width: 62em) {
         padding: 1rem 2rem;
     }
 `;
