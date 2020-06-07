@@ -29,6 +29,12 @@ const StyledSection = styled.div`
         padding-top: 11rem;
         height: 100vh;
     }
+
+    @media (min-width: 75.1em) and (max-width: 85.5em)  {
+        padding: 1rem 10rem;
+        padding-top: 7rem;
+        height: 100vh;
+    }
 `;
 
 const Information = styled.div`
@@ -54,6 +60,9 @@ const Information = styled.div`
         width: 60%;
     }
     @media (min-width: 62.1em) and (max-width: 75em)  {
+        width: 55%;
+    }
+    @media (min-width: 75.1em) and (max-width: 85.5em)  {
         width: 55%;
     }
 `;
@@ -87,7 +96,7 @@ const StyledPicture = styled.div`
         width: 50vh;
         height: 50vh;
     } 
-    @media (min-width: 62.1em) and (max-width: 75em)  {
+    @media (min-width: 62.1em) and (max-width: 85.5em)  {
         width: 60vh;
         height: 60vh;
     }

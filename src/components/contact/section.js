@@ -33,6 +33,10 @@ const StyledSection = styled.div`
         padding: 0rem 6rem;
         padding-bottom: 4rem;
     }
+    @media (min-width: 75.1em) and (max-width: 85.5em) {
+        padding: 0rem 10rem;
+        padding-bottom: 4rem;
+    }
 `;
 
 const CardsContainer = styled.div`
