@@ -32,8 +32,12 @@ const StyledCard = styled.div`
         object-fit: contain;
     }
 
-    @media (max-width: 85.5em) {
+    @media (max-width: 48em) {
         margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    @media (min-width: 48.1rem) and (max-width: 85.5em) {
         margin-bottom: 2rem;
         width: 17rem;
         height: 19rem;

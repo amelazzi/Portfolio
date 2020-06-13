@@ -13,7 +13,6 @@ const StyledCard = styled.div`
     margin-top: ${props=>props.marginTop};
     margin-left: ${props=>props.marginLeft};
     margin-right: ${props=>props.marginRight};
-
     align-items: center;
     :hover{
         background: ${bordo};
@@ -32,10 +31,14 @@ const StyledCard = styled.div`
         height: 100%;
         object-fit: contain;
     }
-
-    @media (max-width: 85.5em) {
+    @media (max-width: 48em) {
         margin: 0;
         margin-bottom: 2rem;
+    }
+
+    @media (min-width: 48.1rem) and (max-width: 85.5em) {
+        margin-bottom: 2rem;
+        padding: 0.8rem;
         width: 17rem;
         height: 10rem;
     }

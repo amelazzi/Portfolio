@@ -19,22 +19,22 @@ const StyledSection = styled.div`
         padding: 0;
     }
     @media (max-width: 48em) {
-        padding: 0rem 2rem;
+        padding: 4rem 2rem;
         h1{
             margin-bottom: 4rem;
         }
     }
     @media (min-width: 48.1em) and (max-width: 62em) {
-        padding: 0rem 2rem;
+        padding: 4rem 2rem;
         padding-bottom: 4rem;
     }
 
     @media (min-width: 62.1em) and (max-width: 75em)  {
-        padding: 0rem 6rem;
+        padding: 4rem 6rem;
         padding-bottom: 4rem;
     }
     @media (min-width: 75.1em) and (max-width: 85.5em) {
-        padding: 0rem 10rem;
+        padding: 4rem 10rem;
         padding-bottom: 4rem;
     }
 `;

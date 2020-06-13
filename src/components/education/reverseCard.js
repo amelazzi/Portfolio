@@ -92,11 +92,11 @@ const CardContainer = styled.div`
     }
 
     @media (min-width: 62.1em) and (max-width: 75em)  {
-        width: 43.1%;
+        width: 45.9%;
         height: 12rem;
     }
     @media (min-width: 75.5em) and (max-width: 85.5em) {
-        width: 43.1%;
+        width: 44.6%;
         height: 12rem;
     }
 `;
