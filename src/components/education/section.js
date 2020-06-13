@@ -48,19 +48,15 @@ const Section = () => {
             <Card school="University of Paris-Est Marne-la-vallée"
                 date="Sept 2019 - Present"
                 degree="Master"
-                field="Software Engineering "/>
-            <ReverseCard school="University of Paris-Est Marne-la-vallée"
-                date="Sept 2019 - Present"
+                field="IoT Services & Systems"/>
+            <ReverseCard school="Higher National School of Computer Science -ESI ex INI-"
+                date="Sept 2014 - Sept 2019"
                 degree="Master"
                 field="Software Engineering "/>
-            <Card school="University of Paris-Est Marne-la-vallée"
-                date="Sept 2019 - Present"
-                degree="Master"
-                field="Software Engineering "/>
-            <ReverseCard school="University of Paris-Est Marne-la-vallée"
-                date="Sept 2019 - Present"
-                degree="Master"
-                field="Software Engineering "/>
+            <Card school="el-Hammadia High School"
+                date="Sept 2011 - Juin 2014"
+                degree="Bachlor"
+                field="Mathimathics field"/>
         </StyledSection>
     )
 }

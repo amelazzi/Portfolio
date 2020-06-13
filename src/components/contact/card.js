@@ -51,13 +51,13 @@ const IconContainer = styled.div`
     }
 `;
 
-const Card = ({icon, info}) => {
+const Card = ({icon, title, info}) => {
     return(
         <StyledCard>
             <IconContainer>
                 <img src={icon}/>
             </IconContainer>
-            <h1> Email </h1>
+            <h1> {title} </h1>
             <p> {info} </p>
         </StyledCard>
     )

@@ -63,30 +63,30 @@ const Section = () => {
             <h1> Work Experience </h1>
             <WorkCard role="Intern" company="Orange Business Services"
                 date="Apr 2020 - Present"
+                reponsibility="Create Android/iOS Shared libraries using KMP"/>
+            <WorkCard role="Intern" company="Ecole Superieure D'informatique"
+                date="Nov - Sept 2019"
                 reponsibility="Create JAVA Object Relational Mapping Evaluator"/>
-            <WorkCard role="Intern" company="Orange Business Services"
-                date="Apr 2020 - Present"
-                reponsibility="Create JAVA Object Relational Mapping Evaluator"/>
-            <WorkCard role="Intern" company="Orange Business Services"
-                date="Apr 2020 - Present"
-                reponsibility="Create JAVA Object Relational Mapping Evaluator"/>
-            <WorkCard role="Intern" company="Orange Business Services"
-                date="Apr 2020 - Present"
-                reponsibility="Create JAVA Object Relational Mapping Evaluator"/>
+            <WorkCard role="Full-Stack Web Developer" company="Gen-42"
+                date="Julu - Oct 2018"
+                reponsibility="Create Vitrine WebSite"/>
+            <WorkCard role="FrontEnd Developer" company="Gen-42"
+                date="Juin - Sept 2017"
+                reponsibility="Develop a Project Management System"/>
         </WorkExperiences>
         <VolunteeringExperiences>
             <h1> Volunteering Experience </h1>
-            <VolunteeringCard role="Embassador" community="Women Techmakers"
-                date="0ct 2018 - Present"
+            <VolunteeringCard role="Organizer" community="She GotIT"
+                date="0ct 2019 - Present"
                 experience="It is a long established fact that a reader will be distracted by the readable content."/>
             <VolunteeringCard role="Embassador" community="Women Techmakers"
                 date="0ct 2018 - Present"
                 experience="It is a long established fact that a reader will be distracted by the readable content."/>
-            <VolunteeringCard role="Embassador" community="Women Techmakers"
-                date="0ct 2018 - Present"
+            <VolunteeringCard role="Lead" community="Women Techmakers Algiers"
+                date="Juin 2017 - Juin 2019"
                 experience="It is a long established fact that a reader will be distracted by the readable content."/>
-            <VolunteeringCard role="Embassador" community="Women Techmakers"
-                date="0ct 2018 - Present"
+            <VolunteeringCard role="Organizer" community="GDG Algiers"
+                date="Sept 2015 - Present"
                 experience="It is a long established fact that a reader will be distracted by the readable content."/>
         </VolunteeringExperiences>
 

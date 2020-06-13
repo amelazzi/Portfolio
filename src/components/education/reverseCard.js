@@ -52,9 +52,8 @@ const FrontEclipse = styled.div`
 const CardContainer = styled.div`
     background: ${gray};
     padding: 1.5rem;
-    width: 26rem;
-    height: 10rem;
-    margin-right: 3.55rem;
+    width: 45%;
+    margin-right: 3rem;
     color: white;
     text-align: center;
     -webkit-box-shadow: -1rem 0 3rem #000;

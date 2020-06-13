@@ -82,40 +82,104 @@ class Tabs extends Component {
                     {this.state.activeTab === 1 ? 
                     (
                         <CardContainer>
-                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                            <BigCard event="ArabWic Lebanon" background="white"
+                                picture={require("../../images/arabwic-logo.png")}
+                                edition="2017" role="Participant"/>
+                            <SmallCard event="WTM Summit" background="white"
+                                picture={require("../../images/wtm-logo.png")}
+                                edition="2017" role="Invited by Google"
                                 marginLeft="2rem" marginRight="2rem"/>
-                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant" 
+                            <BigCard event="GDD India" background="white"
+                                picture={require("../../images/gdd-india-logo.png")}
+                                edition="2018" role="Participant"/>
+                            <SmallCard event="Google I/O" background="#536DFE"
+                                picture={require("../../images/io-2018-logo.png")}
+                                edition="2018" role="Invited by Google"/>
+                            <SmallCard event="LegalTech Algiers" background="black"
+                                edition="2018" role="Participant" 
+                                picture={require("../../images/legalTech-logo.png")}
                                 marginTop="-8rem" marginLeft="2rem" marginRight="2rem"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                             <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant" 
+                            <SmallCard event="Hajj Hackathon" background="white"
+                                picture={require("../../images/hajj-hackathon-logo.png")}
+                                edition="2018" role="Organizer / Participant"/>
+                             <SmallCard event="Hack UPC" background="#E5E5E5"
+                                picture={require("../../images/hack-upc-logo.png")}
+                                edition="2018" role="Participant"/>
+                            <BigCard event="FireBase Summit" background="white"
+                                picture={require("../../images/firebase-summit18-logo.png")}
+                                edition="2018" role="Invited by WTM" 
                                 marginTop="-8rem" marginLeft="2rem" marginRight="2rem"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
+                            <SmallCard event="Junction" background="black"
+                                picture={require("../../images/junction-logo.png")}
+                                edition="2018" role="Participant"/>
+                            <BigCard event="Start Hack" background="white"
+                                picture={require("../../images/start-hack-logo.png")}
+                                edition="2018" role="Participant" marginRight="2rem"/>
+                            <SmallCard event="Oman Ideathon" background="white"
+                                picture={require("../../images/oman-ideathon-logo.png")}
+                                edition="2018" role="Google Organizer"/>
+                            <BigCard event="Google I/O" background="#5565FF"
+                                picture={require("../../images/io-2019-logo.png")}
+                                edition="2019" role="Invited by Google" 
+                                marginTop="-22rem" marginLeft="41rem"/>
+                            <SmallCard event="FireBase Summit" background="#2C3849"
+                                picture={require("../../images/firebase-summit19-logo.png")}
+                                edition="2019" role="Invited by WTM"
+                                marginTop="-8rem" marginLeft="20.5rem"/>
                         </CardContainer>
                     ) : this.state.activeTab === 2?
                     (
                         <CardContainer>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                            <BigCard event="ArabWic Lebanon" background="white"
+                                picture={require("../../images/arabwic-logo.png")}
+                                edition="2017" role="Participant"/>
+                            <SmallCard event="WTM Summit" background="white"
+                                picture={require("../../images/wtm-logo.png")}
+                                edition="2017" role="Invited by Google"
                                 marginLeft="2rem" marginRight="2rem"/>
-                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
-                                marginTop="-8rem"/>
-                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                            <BigCard event="GDD India" background="white"
+                                picture={require("../../images/gdd-india-logo.png")}
+                                edition="2018" role="Participant"/>
+                            <SmallCard event="Google I/O" background="#536DFE"
+                                picture={require("../../images/io-2018-logo.png")}
+                                edition="2018" role="Invited by Google"/>
+                            <SmallCard event="FireBase Summit" background="white"
+                                picture={require("../../images/firebase-summit18-logo.png")}
+                                edition="2018" role="Invited by WTM"
+                                marginTop="-8rem" marginLeft="2rem" marginRight="2rem"/>
+                            <SmallCard event="Oman Ideathon" background="white"
+                                picture={require("../../images/oman-ideathon-logo.png")}
+                                edition="2018" role="Google Organizer"/>
+                             <SmallCard event="Google I/O" background="#5565FF"
+                                picture={require("../../images/io-2019-logo.png")}
+                                edition="2019" role="Invited by Google" />
+                            <BigCard event="FireBase Summit" background="#2C3849"
+                                picture={require("../../images/firebase-summit19-logo.png")}
+                                edition="2019" role="Invited by WTM"
                                 marginTop="-8rem" marginLeft="2rem" marginRight="2rem"/>
                         </CardContainer>
                     ):
                     (
                         <CardContainer>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <BigCard event="Google I/O" edition="2018 & 2019" role="Participant"
-                                marginLeft="2rem" marginRight="2rem"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"/>
-                            <SmallCard event="Google I/O" edition="2018 & 2019" role="Participant"
+                            <SmallCard event="LegalTech Algiers" background="black"
+                                edition="2018" role="Participant" 
+                                picture={require("../../images/legalTech-logo.png")}/>
+                            <BigCard event="Hajj Hackathon" background="white"
+                                picture={require("../../images/hajj-hackathon-logo.png")}
+                                edition="2018" role="Organizer / Participant"
+                                marginLeft="2rem"/>
+                            <SmallCard event="Junction" background="black"
+                                picture={require("../../images/junction-logo.png")}
+                                edition="2018" role="Participant"
+                                marginLeft="2rem"/>
+                            <SmallCard event="Hack UPC" background="#E5E5E5"
+                                picture={require("../../images/hack-upc-logo.png")}
+                                edition="2018" role="Participant"
                                 marginTop="-8rem"/>
+                            <BigCard event="Start Hack" background="white"
+                                picture={require("../../images/start-hack-logo.png")}
+                                edition="2018" role="Participant" 
+                                marginTop="-8rem" marginLeft="22.5rem"/>
                         </CardContainer>
                     )}
                 </div>

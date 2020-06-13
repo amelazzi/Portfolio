@@ -72,11 +72,11 @@ const Section = () => {
         <StyledSection id="contact">
             <h1> CONTACT ME</h1>
             <CardsContainer>
-                <Card icon={require("../../images/address-icon.png")}
+                <Card icon={require("../../images/address-icon.png")} title="Address"
                     info="Orange Business Services, 13 Boulevard Martin Luther King, 44300 Nantes"/>
-                <Card icon={require("../../images/mail-icon.png")}
+                <Card icon={require("../../images/mail-icon.png")} title="Email"
                     info="amel.azzi@orange.com"/>
-                <Card icon={require("../../images/phone-icon.png")}
+                <Card icon={require("../../images/phone-icon.png")} title="Mobile"
                     info="+33 669 57 35 82"/>
             </CardsContainer>
             <FormContainer>

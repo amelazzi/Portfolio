@@ -6,19 +6,47 @@ import { bordo } from "../../styles/colors";
 const StyledCard = styled.div`
     width: 18.5rem;
     height: 12rem;
-    background: white;
+    padding: 1.5rem;
+    background: ${props=>props.background};
     border-radius: 16px;
     margin-bottom: 2rem;
     margin-top: ${props=>props.marginTop};
     margin-left: ${props=>props.marginLeft};
     margin-right: ${props=>props.marginRight};
 
+    align-items: center;
+    :hover{
+        background: ${bordo};
+        opacity: 0.8;
+        cursor: pointer;
+        h1,h2,p{
+            display: block;
+        }
+        img{
+            display: none;
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    @media (max-width: 85.5em) {
+        margin: 0;
+        margin-bottom: 2rem;
+        width: 17rem;
+        height: 10rem;
+    }
+`;
+
+const InfoContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-    h1,p{
+    margin-top:1rem;
+    h1,h2,p{
         display: none;
         margin: 0;
     }
@@ -27,22 +55,6 @@ const StyledCard = styled.div`
         font-size: 18px;
         font-weight: 500;
         margin-top: 16px;
-    }
-
-    :hover{
-        background: ${bordo};
-        opacity: 0.8;
-        cursor: pointer;
-        h1,p{
-            display: block;
-        }
-    }
-
-    @media (max-width: 85.5em) {
-        margin: 0;
-        margin-bottom: 2rem;
-        width: 17rem;
-        height: 10rem;
     }
 `;
 
@@ -60,15 +72,18 @@ const EditionContainer = styled.div`
     }
 `;
 
-const Card = ({event, edition, role, marginTop, marginLeft, marginRight}) => {
+const Card = ({event, edition, role, marginTop, marginLeft, marginRight, picture, background}) => {
     return(
-        <StyledCard marginTop={marginTop} marginLeft={marginLeft} marginRight={marginRight}>
-            <h1> {event} </h1>
-            <EditionContainer>
-                <h2> Edition:  </h2>
-                <p> {edition} </p>
-            </EditionContainer>
-            <p> {role} </p>
+        <StyledCard background={background} marginTop={marginTop} marginLeft={marginLeft} marginRight={marginRight}>
+            <img src={picture}/>
+            <InfoContainer>
+                <h1> {event} </h1>
+                <EditionContainer>
+                    <h2> Edition:  </h2>
+                    <p> {edition} </p>
+                </EditionContainer>
+                <p> {role} </p>
+            </InfoContainer>
         </StyledCard>
     )
 }
