@@ -4,8 +4,6 @@ import styled from 'styled-components'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css'
 
-import {gray, bordo} from '../../styles/colors'
-
 
 const StyledSkill = styled.div`
     display: flex;

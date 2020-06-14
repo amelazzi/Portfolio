@@ -1,7 +1,14 @@
 import React from "react"
 
 import styled from 'styled-components'
-import { dark, gray, bordo } from "../../styles/colors";
+import { bordo } from "../../styles/colors"
+
+const encode = data => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
+}
+  
 
 const StyledForm = styled.form`
     width: 48%;
@@ -62,7 +69,7 @@ const StyledTextArea = styled.textarea`
     }
 `;
 
-const StyledSubmmit = styled.input`
+const StyledSubmmit = styled.button`
     width: 100%;
     background: ${bordo};
     outline: none;
@@ -78,21 +85,48 @@ const StyledSubmmit = styled.input`
     }
 `;
 
+const RegExEmail = "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/"
 
-const Form = ({}) => {
+const Form = () => {
+    const [state, setState] = React.useState({})
+  
+    const handleChange = e => {
+      setState({ ...state, [e.target.name]: e.target.value })
+    }
+  
+    const handleSubmit = e => {
+      const form = e.target
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({
+          "form-name": form.getAttribute("name"),
+          ...state,
+        }),
+      })
+        .then(() => alert("Thank you for sending 😄"))
+        .catch(error => alert(error))
+    }
     return(
-        <StyledForm name="contact"
+        <StyledForm 
+            name="contact"
             method="POST"
-            data-netlify="true">
+            data-netlify={true}
+            onSubmit={handleSubmit}>
             <FullName>
-                <StyledInput name="firstname" placeholder="First Name"/>
-                <StyledInput name="lastname" placeholder="Last Name"/>
+                <StyledInput name="firstname" type="text" placeholder="First Name" 
+                    required onChange={handleChange}/>
+                <StyledInput name="lastname" type="text" placeholder="Last Name" 
+                    required onChange={handleChange}/>
             </FullName>
-            <EmailInput name="email" placeholder="Your Email"/>
-            <StyledTextArea name="message" placeholder="Your Message"/>
-            <StyledSubmmit type="submit" value="Send Message"/>
+            <EmailInput name="email" type="email" placeholder="Your Email" 
+                required onChange={handleChange}/>
+            <StyledTextArea name="message" placeholder="Your Message" 
+                required onChange={handleChange}/>
+            <StyledSubmmit type="submit"> Send Message </StyledSubmmit>
         </StyledForm>
     )
 }
 
 export default Form
+export { encode }
