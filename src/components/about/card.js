@@ -5,10 +5,11 @@ import { dark } from "../../styles/colors";
 
 const StyledCard = styled.div`
     background: ${dark};
+    display: flex;
+    flex-direction: column;
     padding: 2rem;
     width: 31%;
     color: white;
-    text-align: center;
     box-shadow: -1rem 0 3rem ${dark};
     h1{
         font-size: 32px;
@@ -29,6 +30,10 @@ const StyledCard = styled.div`
     @media (max-width: 48em) {
         width: 100%;
         margin-bottom: 2rem;
+        align-items: center;
+        p{
+            text-align: center;
+        }
     }
 `;
 
