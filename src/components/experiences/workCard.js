@@ -33,16 +33,13 @@ const StyledCard = styled.div`
 `;
 
 const JobConainer = styled.div`
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
     h1{
         font-size: 22px !important;
         margin: 0 !important;
         padding: 0;
         fon-weight: 400;
         :nth-child(2){
-            margin-left: 6px !important;
+            margin-top: 8px !important;
             color: ${bordo};
         }
     }
@@ -52,7 +49,7 @@ const WorkCard = ({role, company, date, reponsibility}) => {
     return(
         <StyledCard>
             <JobConainer>
-                <h1> {role} - </h1>
+                <h1> {role} </h1>
                 <h1> {company} </h1>
             </JobConainer>
             <h4> {date} </h4>

@@ -85,8 +85,10 @@ const StyledHello = styled.div`
 `;
 
 const StyledPicture = styled.div`
-    width: 35vh;
-    height: 35vh;
+    max-width: 35vh;
+    max-height: 35vh;
+    min-width: 35vh;
+    min-height: 35vh;
     border-radius: 50%;
     border-style: solid;
     border-color: black;
@@ -103,9 +105,12 @@ const StyledPicture = styled.div`
 `;
 
 const PictureContainer = styled.div`
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     border-radius: 50%;
+    margin-top: -4px;
     img{
         width: 100%;
         height: 100%;
