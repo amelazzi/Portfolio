@@ -5,6 +5,7 @@ import { bordo, dark, gray } from "../styles/colors"
 import SocialMedia from "../components/SocialMedial"
 import Modal from "./modal"
 import { ModalProvider, BaseModalBackground } from "styled-react-modal"
+import Scrollspy from 'react-scrollspy'
 
 
 const FadingBackground = styled(BaseModalBackground)`
@@ -57,7 +58,6 @@ const StyledMenu = styled.div`
         text-decoration: none;
         font-weight: 700 !important;
         &:hover,
-        &:focus,
         &.active {
             color: ${bordo};
             &:after {
@@ -78,6 +78,8 @@ const StyledMenu = styled.div`
         display: none;
     }
 `;
+
+const navItems = ['home', 'about', 'education', 'experiences', 'skills', 'events', 'contact'] 
 
 const Header = () => {
     return(
@@ -101,13 +103,15 @@ const Header = () => {
             </ModalProvider>
             <StyledMenu>
                 <nav>
-                    <Link to="/#home"> Home </Link>
-                    <Link to="/#about"> About </Link>
-                    <Link to="/#skills"> Skills </Link>
-                    <Link to="/#experiences"> Experiences </Link>
-                    <Link to="/#education"> Education </Link>
-                    <Link to="/#events"> Events </Link>
-                    <Link to="/#contact"> Contact </Link>
+                    <Scrollspy items={navItems} currentClassName="active">
+                        <Link to="/#home"> Home </Link>
+                        <Link to="/#about"> About </Link>
+                        <Link to="/#education"> Education </Link>
+                        <Link to="/#experiences"> Experiences </Link>
+                        <Link to="/#skills"> Skills </Link>
+                        <Link to="/#events"> Events </Link>
+                        <Link to="/#contact"> Contact </Link>
+                    </Scrollspy>
                 </nav>
             </StyledMenu>
         </StyledHeader>

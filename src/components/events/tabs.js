@@ -19,9 +19,11 @@ const TabsBtn = styled.div`
         background: transparent;
         border: none;
         border-bottom: 3px solid ${gray};
-        :hover{
+        :hover,
+        &:focus{
             border-bottom: 3px solid ${bordo};
             cursor: pointer;
+            outline: none;
         }
     }
     @media (max-width: 48em) {
