@@ -119,6 +119,11 @@ const PictureContainer = styled.div`
     }
 `;
 
+/*
+    I have serious passion for UI effects and about building excellent 
+                    software that improves the lives of those around me
+*/
+
 const Section = () => {
     return(
         <StyledSection id="home">
@@ -128,8 +133,7 @@ const Section = () => {
                 </StyledHello>
                 <h1> Amel AZZI </h1>
                 <h2> Software Engineer </h2>
-                <p> You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.
-                You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures. </p>
+                <p> I am a Mobile Software Engineer at Orange Business Services in Nantes, France</p>
             </Information>
             <StyledPicture>
                 <PictureContainer>

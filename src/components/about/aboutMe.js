@@ -114,13 +114,14 @@ const AboutMe = () => {
             </PictureContainer>
             <OverView>
                 <h1> ABOUT ME </h1>
-                <p> Hello, I’m Amel, Software Engineer base at Nantes - Paris. I have a rich experience in Web/Mobile design & building. I’m also good at  </p>
+                <p> Hello, I am Software Engineer with passion for building Web/Mobile Software with solid architecture and beautiful UI.</p>
                 <SkillsContainer>
-                    <Skill> FrontEnd </Skill>
-                    <Skill> BackEnd </Skill>
+                    <Skill> Mobile Development </Skill>
+                    <Skill> Web Development</Skill>
+                    <Skill> UI Design</Skill>
                     <Skill> Databases </Skill>
                     <Skill> ORMs </Skill>
-                    <Skill> GitHub </Skill>
+                    <Skill> Git </Skill>
                     <Skill> Graphic Design </Skill>
                 </SkillsContainer>
                 <DownloadCV href={resumePDF} download> 

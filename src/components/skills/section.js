@@ -76,11 +76,11 @@ const Section = () => {
         <StyledSection id="skills">
         <ProSkillsContainer>
             <h1> Professional Skills </h1>
-            <ProSkills name="Java" progress="70%"/>
-            <ProSkills name="Java" progress="70%"/>
-            <ProSkills name="Java" progress="70%"/>
-            <ProSkills name="Java" progress="70%"/>
-            <ProSkills name="Java" progress="70%"/>
+            <ProSkills name="Kotlin" progress="65%"/>
+            <ProSkills name="React JS" progress="50%"/>
+            <ProSkills name="Databases" progress="70%"/>
+            <ProSkills name="ORMs" progress="75%"/>
+            <ProSkills name="Graphic Design" progress="45%"/>
         </ProSkillsContainer>
         <SoftSkillsContainer>
             <h1> Soft Skills </h1>

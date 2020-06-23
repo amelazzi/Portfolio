@@ -32,13 +32,16 @@ const WhatIDo = () => {
             <CardsContainer>
                 <Card icon={require("../../images/mobile-icon.png")}
                     title="Mobile Development"
-                    resume="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+                    resume="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                        laoreet dolore magna aliquam erat volutpat."/>
                 <Card icon={require("../../images/laptop-icon.png")}
                     title="Web Development"
-                    resume="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+                    resume="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                        laoreet dolore magna aliquam erat volutpat."/>
                 <Card icon={require("../../images/graphic-design-icon.png")}
                     title="Graphic Design"
-                    resume="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."/>
+                    resume="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                        laoreet dolore magna aliquam erat volutpat."/>
             </CardsContainer>
         </StyledSection>
     )

@@ -73,9 +73,9 @@ const Section = () => {
             <h1> CONTACT ME</h1>
             <CardsContainer>
                 <Card icon={require("../../images/address-icon.png")} title="Address"
-                    info="Orange Business Services, 13 Boulevard Martin Luther King, 44300 Nantes"/>
+                    info="Orange Business Services - OBS, 9 Boulevard Nicéphore Niépce, 44300 Nantes"/>
                 <Card icon={require("../../images/mail-icon.png")} title="Email"
-                    info="amel.azzi@orange.com"/>
+                    info="amelias.azzi@gmail.com"/>
                 <Card icon={require("../../images/phone-icon.png")} title="Mobile"
                     info="+33 669 57 35 82"/>
             </CardsContainer>

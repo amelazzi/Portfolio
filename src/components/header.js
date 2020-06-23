@@ -95,9 +95,6 @@ const Header = () => {
                     imgBackground={require("../images/linkedIn.png")}
                     link="https://www.linkedin.com/in/amel-azzi-625446b2/"/>
 
-                <SocialMedia img={require("../images/facebook-white.png")} 
-                    imgBackground={require("../images/facebook.png")}
-                    link="https://www.facebook.com/misa.chan.9277"/>
             </StyledSocialMedia>
             <ModalProvider backgroundComponent={FadingBackground}>
                 <Modal/>

@@ -81,13 +81,13 @@ const Section = () => {
                 experience="It is a long established fact that a reader will be distracted by the readable content."/>
             <VolunteeringCard role="Embassador" community="Women Techmakers"
                 date="0ct 2018 - Present"
-                experience="It is a long established fact that a reader will be distracted by the readable content."/>
-            <VolunteeringCard role="Lead" community="Women Techmakers Algiers"
+                experience=" it's a global program that celebrates women, encouraging them to pursue and excel in technology careers"/>
+            <VolunteeringCard role="Founder / Lead" community="Women Techmakers Algiers"
                 date="Juin 2017 - Juin 2019"
-                experience="It is a long established fact that a reader will be distracted by the readable content."/>
-            <VolunteeringCard role="Organizer" community="GDG Algiers"
+                experience="WTM Algiers is a chapter belonging to WTM community. International Women's day is the main event"/>
+            <VolunteeringCard role="Organizer" community="Google Developers Group Algiers"
                 date="Sept 2015 - Present"
-                experience="It is a long established fact that a reader will be distracted by the readable content."/>
+                experience="GDGs are created by Google in 2011, they are for developers who are interested in Google's technology"/>
         </VolunteeringExperiences>
 
         </StyledSection>

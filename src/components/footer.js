@@ -61,10 +61,6 @@ const Footer = () => {
                 <SocialMedia img={require("../images/linkedIn-dark.png")} 
                     imgBackground={require("../images/linkedIn-bordo.png")}
                     link="https://www.linkedin.com/in/amel-azzi-625446b2/"/>
-
-                <SocialMedia img={require("../images/facebook-dark.png")} 
-                    imgBackground={require("../images/facebook-bordo.png")}
-                    link="https://www.facebook.com/misa.chan.9277"/>
             </StyledSocialMedia>
         </StyledFooter>
     )  

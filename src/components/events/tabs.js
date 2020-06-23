@@ -101,7 +101,6 @@ class Tabs extends Component {
         };
         this.state.activeTab = 1
     }
-
     render() {
         return (
             <>

@@ -53,7 +53,7 @@ const Section = () => {
                 date="Sept 2014 - Sept 2019"
                 degree="Master"
                 field="Software Engineering "/>
-            <Card school="el-Hammadia High School"
+            <Card school="El-Hammadia High School"
                 date="Sept 2011 - Juin 2014"
                 degree="Bachlor"
                 field="Mathimathics field"/>
