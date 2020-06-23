@@ -27,6 +27,7 @@ const Section = () => {
     return(
         <StyledSection id="about">
             <AboutMe/>
+            <WhatIDO/>
         </StyledSection>
     )
 }
