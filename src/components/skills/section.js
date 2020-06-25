@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import ProSkills from './proSkill'
 import SoftSkill from './softSkill'
+import { gray } from "../../styles/colors";
 
 const StyledSection = styled.div`
     display: flex;
@@ -36,7 +37,6 @@ const StyledSection = styled.div`
 
 const ProSkillsContainer = styled.div`
     width: 50%;
-    margin-top: 1rem;
     @media (max-width: 48em) {
         width: 100%;
     }
@@ -44,7 +44,6 @@ const ProSkillsContainer = styled.div`
 
 const SoftSkillsContainer = styled.div`
     width: 45%;
-    margin-top: 1rem;
     @media (max-width: 48em) {
         width: 100%;
         margin-top: 4rem;

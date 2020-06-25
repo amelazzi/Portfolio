@@ -8,6 +8,7 @@ import AboutSection from '../components/about/section'
 import SkillsSection from '../components/skills/section'
 import ExperiencesSection from '../components/experiences/section'
 import EducationSection from '../components/education/section'
+import MyProjects from '../components/about/whatIdo'
 import EventsSection from '../components/events/section'
 import ContactSection from '../components/contact/section'
 
@@ -17,9 +18,9 @@ const IndexPage = () => (
     <SEO title="Home" />
         <HomeSection/>
         <AboutSection/>
-        <EducationSection/>
         <ExperiencesSection/>
         <SkillsSection/>
+        <MyProjects/>
         <EventsSection/>
         <ContactSection/>
   </Layout>

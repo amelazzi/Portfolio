@@ -3,14 +3,39 @@ import React from "react"
 import styled from 'styled-components'
 import { dark } from "../../styles/colors";
 
-const StyledCard = styled.div`
-    background: ${dark};
+const StyledDiv = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    width: 31%;
-    color: white;
+    background: ${dark};
     box-shadow: -1rem 0 3rem ${dark};
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    :nth-child(3n){
+        margin-right: 0rem;
+    }
+    :hover{
+        cursor: pointer;
+    }
+    width: 31%;
+
+    @media (max-width: 48em) {
+        width: 100%;
+    }
+
+    @media (min-width: 48.1em) and (max-width: 62em){
+        width: 45%;
+        margin-right: 0rem;
+    }
+    @media (min-width: 62.1em) and (max-width: 75em)  {
+        margin-right: 0rem;
+    }
+`;
+
+const StyledCard = styled.div`
+    display: flex;
+    flex-direction: column;
+    color: white;
     h1{
         font-size: 32px;
         margin: 0;
@@ -38,8 +63,8 @@ const StyledCard = styled.div`
 `;
 
 const IconContainer = styled.div`
-    width: 3rem;
-    height: 3rem;
+    width: 6rem;
+    height: 6rem;
     img{
         width: 100%;
         height: 100%;
@@ -47,15 +72,31 @@ const IconContainer = styled.div`
     }
 `;
 
-const Card = ({icon, title, resume}) => {
+const StacksContainer = styled.div`
+    display: flex;
+    justify-content: space-start;
+    flex-wrap: wrap;
+    margin-top: auto;
+    @media (max-width: 48em) {
+        justify-content: space-around;
+    }
+`;
+
+
+const Card = ({icon, title, resume, stacks}) => {
     return(
-        <StyledCard>
-            <IconContainer>
-                <img src={icon}/>
-            </IconContainer>
-            <h2> {title} </h2>
-            <p> {resume} </p>
-        </StyledCard>
+       <StyledDiv>
+            <StyledCard>
+                <IconContainer>
+                    <img src={icon}/>
+                </IconContainer>
+                <h2> {title} </h2>
+                <p> {resume} </p>
+            </StyledCard>
+            <StacksContainer>
+                {stacks}
+            </StacksContainer>
+       </StyledDiv>
     )
 }
 

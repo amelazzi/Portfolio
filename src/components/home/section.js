@@ -1,7 +1,7 @@
 import React from "react"
 
 import styled from 'styled-components'
-import { bordo } from "../../styles/colors";
+import { bordo } from "../../styles/colors"
 
 const StyledSection = styled.div`
     display: flex;

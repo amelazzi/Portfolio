@@ -3,7 +3,6 @@ import React from "react"
 import styled from 'styled-components'
 import { gray } from "../../styles/colors"
 import AboutMe from './aboutMe'
-import WhatIDO from './whatIdo'
 
 const StyledSection = styled.div`
     background: ${gray};
@@ -27,7 +26,6 @@ const Section = () => {
     return(
         <StyledSection id="about">
             <AboutMe/>
-            <WhatIDO/>
         </StyledSection>
     )
 }

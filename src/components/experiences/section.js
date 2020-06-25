@@ -7,7 +7,7 @@ import VolunteeringCard from './volunteeringCard'
 const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 0rem 20rem;
+    padding: 4rem 20rem;
     color: white;
     h1{
         font-size: 32px;
@@ -16,20 +16,20 @@ const StyledSection = styled.div`
         padding: 0;
     }
     @media (max-width: 48em) {
-        padding: 0rem 2rem;
+        padding: 2rem 2rem;
         flex-direction: column;
         h1{
             margin-bottom: 2rem;
         }
     }
     @media (min-width: 48.1em) and (max-width: 62em) {
-        padding: 0rem 2rem;
+        padding: 4rem 2rem;
     }
     @media (min-width: 62.1em) and (max-width: 75em)  {
-        padding: 0rem 6rem;
+        padding: 4rem 6rem;
     }
     @media (min-width: 75.1em) and (max-width: 85.5em)  {
-        padding: 0rem 10rem;
+        padding: 4rem 10rem;
     }
 `;
 

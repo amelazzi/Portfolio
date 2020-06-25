@@ -1,13 +1,13 @@
 import React from "react"
 import styled from 'styled-components'
-import { gray, bordo } from "../../styles/colors"
+import { dark } from "../../styles/colors"
 
 import Tabs from './tabs'
 
 
 const StyledSection = styled.div`
     padding: 4rem 20rem;
-    background: ${gray};
+    background: ${dark};
     color: white;
     text-align: center;
     h1{
