@@ -1,6 +1,5 @@
 import React from "react"
 import styled from 'styled-components'
-import { gray } from "../../styles/colors"
 
 import Card from './card'
 import Form from './form'

@@ -9,10 +9,21 @@ const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 4rem 20rem;
     width: 100%;
     color: white;
     @media (max-width: 48em) {
         flex-direction: column;
+        padding: 2rem;
+    }
+    @media (min-width: 48.1em) and (max-width: 62em) {
+        padding: 4rem 2rem;
+    }
+    @media (min-width: 62.1em) and (max-width: 75em)  {
+        padding: 4rem 6rem;
+    }
+    @media (min-width: 75.1em) and (max-width: 85.5em)  {
+        padding: 4rem 10rem;
     }
 `;
 
@@ -110,7 +121,7 @@ const AboutMe = () => {
     return(
         <StyledSection>
             <PictureContainer>
-                <img src={require("../../images/about-picture.png")}/>
+                <img src={require("../../images/about-picture.png")} alt="about-pic"/>
             </PictureContainer>
             <OverView>
                 <h1> ABOUT ME </h1>
@@ -127,7 +138,7 @@ const AboutMe = () => {
                 <DownloadCV href={resumePDF} download> 
                     Download CV 
                     <IconContainer>
-                        <img src={require("../../images/download-icon.png")} />
+                        <img src={require("../../images/download-icon.png")} alt="download-icon"/>
                     </IconContainer>    
                 </DownloadCV>{` `}
             </OverView>

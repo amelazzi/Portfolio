@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 import ProSkills from './proSkill'
 import SoftSkill from './softSkill'
-import { gray } from "../../styles/colors";
 
 const StyledSection = styled.div`
     display: flex;

@@ -1,7 +1,7 @@
 import React from "react"
 
 import styled from 'styled-components'
-import { dark, gray, bordo } from "../../styles/colors";
+import { gray, bordo } from "../../styles/colors";
 
 const StyledCard = styled.div`
     background: ${gray};

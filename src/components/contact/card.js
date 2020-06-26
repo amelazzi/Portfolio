@@ -1,7 +1,7 @@
 import React from "react"
 
 import styled from 'styled-components'
-import { dark, gray, bordo } from "../../styles/colors";
+import { gray, bordo } from "../../styles/colors";
 
 const StyledCard = styled.div`
     display: flex;
@@ -55,7 +55,7 @@ const Card = ({icon, title, info}) => {
     return(
         <StyledCard>
             <IconContainer>
-                <img src={icon}/>
+                <img src={icon} alt="icon"/>
             </IconContainer>
             <h1> {title} </h1>
             <p> {info} </p>

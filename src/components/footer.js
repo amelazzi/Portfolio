@@ -1,7 +1,6 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from 'styled-components'
-import { bordo, dark, gray } from "../styles/colors"
+import {dark} from "../styles/colors"
 
 import SocialMedia from './SocialMedial'
 

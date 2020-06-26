@@ -78,7 +78,7 @@ const EditionContainer = styled.div`
 const Card = ({event, edition, role, marginTop, marginLeft, marginRight, picture, background}) => {
     return(
         <StyledCard background={background} marginTop={marginTop} marginLeft={marginLeft} marginRight={marginRight}>
-            <img src={picture}/>
+            <img src={picture} alt="event-logo"/>
             <InfoContainer>
                 <h1> {event} </h1>
                 <EditionContainer>

@@ -88,7 +88,7 @@ const Card = ({icon, title, resume, stacks}) => {
        <StyledDiv>
             <StyledCard>
                 <IconContainer>
-                    <img src={icon}/>
+                    <img src={icon} alt="project-logo"/>
                 </IconContainer>
                 <h2> {title} </h2>
                 <p> {resume} </p>
