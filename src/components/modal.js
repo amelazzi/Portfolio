@@ -14,7 +14,8 @@ const MenuIcon = styled.img`
     }
     @media (max-width: 48em) {
         display: block;
-        margin-left: 47% !important;
+        position: absolute;
+        right: 2rem;
     }
 `;
 
@@ -97,11 +98,12 @@ class FancyModalButton extends React.Component {
             backgroundProps={{ opacity: this.state.opacity }}
         >
             <img src={require("../images/close-icon.png")} onClick={this.toggleModal} alt="close" />
-            <HomeLink to='/'> Home </HomeLink>
-            <StyledLink to='/about'> About </StyledLink>
-            <StyledLink to='/contact-us'> Contact Us </StyledLink>
-            <StyledLink to='/agenda'> Agenda </StyledLink>
-            <StyledLink to='/register'> Register </StyledLink>
+            <HomeLink to="/#home" onClick={this.toggleModal} > Home </HomeLink>
+            <StyledLink to="/#experiences" onClick={this.toggleModal} > Experiences </StyledLink>
+            <StyledLink to="/#skills" onClick={this.toggleModal} > Skills </StyledLink>
+            <StyledLink to="/#projects" onClick={this.toggleModal} > Projects </StyledLink>
+            <StyledLink to="/#events" onClick={this.toggleModal} > Events </StyledLink>
+            <StyledLink to="/#contact" onClick={this.toggleModal} > Contact </StyledLink>
         </StyledModal>
       </>
     );

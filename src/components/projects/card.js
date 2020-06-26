@@ -27,7 +27,7 @@ const StyledDiv = styled.div`
         width: 45%;
         margin-right: 0rem;
     }
-    @media (min-width: 62.1em) and (max-width: 75em)  {
+    @media (min-width: 62.1em) and (max-width: 85.5em)  {
         margin-right: 0rem;
     }
 `;
