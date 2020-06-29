@@ -120,7 +120,7 @@ const WhatIDo = () => {
                         resume="Generate Java code based on heterogeneous databases and sensors, taking on concederation different 
                             functionalities to get an homogene and global database"
                         stacks={TorpicsStacks}/>
-                    <Card icon={require("../../images/tetrate-logo.png")}
+                    <Card icon={require("../../images/orm-evaluator-logo.png")}
                         title="ORM Evaluator"
                         resume="Software to analyse and evaluate Java ORMs on different databases, taking on concederation the complexity 
                             of database schema and data size"
@@ -129,11 +129,11 @@ const WhatIDo = () => {
                         title="Tetrate"
                         resume="Rebuild Tetrate website from scratch without using any library. Build for fun and to master CSS tricks"
                         stacks={TetrateStacks}/>
-                    <Card icon={require("../../images/tetrate-logo.png")}
+                    <Card icon={require("../../images/bavus-logo.png")}
                         title="bAvus"
                         resume="Android Road Condition Application, to aware tracks about the road condition and predict the best way to take"
                         stacks={BavusStacks}/>
-                    <Card icon={require("../../images/tetrate-logo.png")}
+                    <Card icon={require("../../images/tharwa-logo.png")}
                         title="Tharwa"
                         resume="Platform for eBanking. The platform integrates a web client used by bankers and managers and a mobile Android/iOS application 
                         for clients and employers"
