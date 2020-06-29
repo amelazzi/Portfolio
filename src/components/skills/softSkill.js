@@ -10,7 +10,7 @@ const StyledSkill = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 0rem;
     width: 7rem;
     p{
         font-size: 16px;
@@ -18,10 +18,6 @@ const StyledSkill = styled.div`
     }
     @media (max-width: 48em) {
         width: 50%;
-        margin-right: 0rem;
-    }
-    @media (max-width: 85.5em) {
-        margin-right: 0rem;
     }
 `;
 
