@@ -10,14 +10,15 @@ const StyledSkill = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 0rem;
+    margin-right: 1rem;
     width: 7rem;
     p{
         font-size: 16px;
         margin-top: 8px;
     }
     @media (max-width: 48em) {
-        width: 50%;
+        width: 45%;
+        margin-right: 0rem;
     }
 `;
 

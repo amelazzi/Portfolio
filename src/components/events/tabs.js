@@ -43,23 +43,16 @@ const CardContainer = styled.div`
     @media (max-width: 48em) {
         justify-content: center;
     }
-    @media (min-width: 48.1em) and (max-width: 62em) {
+    @media (min-width: 48.1em) and (max-width: 85.5em) {
         align-items: center;
         justify-content: space-around;
         display: none;
     }
-
-    @media (min-width: 62.1em) and (max-width: 75em)  {
-        align-items: center;
-        justify-content: space-between;
-        display: none;
+    @media (min-width: 85.6em){
+        display: flex;
+        margin-left: 3rem;
     }
-
-    @media (min-width: 75.1em) and (max-width: 85.5em) {
-        align-items: center;
-        justify-content: space-between;
-        display: none;
-    }
+    
 `;
 
 const ResponsiveCardContainer = styled.div`
