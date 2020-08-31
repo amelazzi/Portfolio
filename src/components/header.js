@@ -57,6 +57,15 @@ const StyledMenu = styled.div`
         position: relative;
         text-decoration: none;
         font-weight: 700 !important;
+        :last-child{
+            &:hover,
+            &.active {
+                color: ${bordo};
+                &:after {
+                    width:4.8rem !important;
+                }
+            }
+        }
         &:hover,
         &.active {
             color: ${bordo};
@@ -67,7 +76,7 @@ const StyledMenu = styled.div`
                 bottom: 2px;
                 top: 1.5rem;
                 left: calc(1rem / 2);
-                width: calc(100% - 1rem);
+                width: calc(100% - 1.2rem);
                 height: 2px;
                 background: ${bordo};
                 border-radius: 10px;

@@ -48,10 +48,6 @@ const CardContainer = styled.div`
         justify-content: space-around;
         display: none;
     }
-    @media (min-width: 85.6em){
-        display: flex;
-        margin-left: 3rem;
-    }
     
 `;
 
