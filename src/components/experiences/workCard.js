@@ -54,7 +54,7 @@ const WorkCard = ({role, company, date, reponsibility}) => {
             </JobConainer>
             <h4> {date} </h4>
             <h5> Responsability </h5>
-            <p> • {reponsibility}. </p>
+            <p> • {reponsibility} </p>
         </StyledCard>
     )
 }

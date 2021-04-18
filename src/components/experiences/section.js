@@ -61,6 +61,9 @@ const Section = () => {
         <StyledSection id="experiences">
             <WorkExperiences>
                 <h1> Work Experience </h1>
+                <WorkCard role="Full-stack Developer" company="Smartway"
+                    date="Jan 2021 - Present"
+                    reponsibility="Develop and improve company's products"/>
                 <WorkCard role="Intern" company="Orange Business Services"
                     date="Apr 2020 - Present"
                     reponsibility="Create Android/iOS Shared libraries using KMP"/>
