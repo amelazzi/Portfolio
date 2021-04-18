@@ -134,7 +134,7 @@ const Section = () => {
                 </StyledHello>
                 <h1> Amel AZZI </h1>
                 <h2> Software Engineer </h2>
-                <p> I am a Mobile Software Engineer at Orange Business Services in Nantes, France</p>
+                <p> I am a Full Stack Developer at Smartway (Zéro-Gachis) in Nantes, France</p>
             </Information>
             <StyledPicture>
                 <PictureContainer>
