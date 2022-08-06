@@ -72,7 +72,7 @@ const Section = () => {
             <h1> CONTACT ME</h1>
             <CardsContainer>
                 <Card icon={require("../../images/address-icon.png")} title="Address"
-                    info="Orange Business Services - OBS, 9 Boulevard Nicéphore Niépce, 44300 Nantes"/>
+                    info="Nantes 44000, France"/>
                 <Card icon={require("../../images/mail-icon.png")} title="Email"
                     info="amelias.azzi@gmail.com"/>
                 <Card icon={require("../../images/phone-icon.png")} title="Mobile"
@@ -82,13 +82,12 @@ const Section = () => {
                 <Form/>
                 <Maps>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d10832.430142311261!2d-1.5727072094177472!3d47.253600466603814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4805ef21672963b9%3A0xffd53fbbefd0123e!2sOrange%20Business%20Services%2C%2013%20Boulevard%20Martin%20Luther%20King%2C%2044300%20Nantes!3m2!1d47.2562492!2d-1.555752!5e0!3m2!1sen!2sfr!4v1588003939385!5m2!1sen!2sfr"
+                        src="https://maps.google.com/maps?q=Nantes%2044000&t=&z=13&ie=UTF8&iwloc=&output=embed"
                         width="100%"
                         height="100%"
                         frameBorder="0"
-                        title="wtm-location"
-                        style={{ border: 0, margin: 0 }}
-                        allowFullScreen="">
+                        title="my-location"
+                        style={{ border: 0, margin: 0 }}>
                     </iframe>
                 </Maps>
             </FormContainer>
