@@ -45,9 +45,10 @@ const StyledSocialMedia = styled.div`
 
 
 const Footer = () => {
+    var currentYear = new Date().getFullYear();
     return(
         <StyledFooter>
-            <p> All Rights Reserved Amel AZZI © 2020 </p>
+            <p> All Rights Reserved Amel AZZI © 2020 - {currentYear}</p>
             <StyledSocialMedia>
             <SocialMedia img={require("../images/github-dark.png")} 
                     imgBackground={require("../images/github-bordo.png")}
