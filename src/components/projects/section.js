@@ -15,7 +15,7 @@ const StyledSection = styled.div`
         padding: 0;
     }
 
-    padding: 4rem 20rem;
+    padding: 4rem 10rem;
     background: ${gray};
     color: white;
     @media (max-width: 48em) {

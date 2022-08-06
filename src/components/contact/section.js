@@ -7,7 +7,7 @@ import Form from './form'
 const backgroundImg = require("../../images/world-map.png")
 
 const StyledSection = styled.div`
-    padding: 4rem 20rem;
+    padding: 4rem 10rem;
     background-image: url(${backgroundImg});
     color: white;
     text-align: center;

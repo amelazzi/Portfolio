@@ -6,7 +6,7 @@ import Card from './card'
 import ReverseCard from './reverseCard'
 
 const StyledSection = styled.div`
-    padding: 4rem 20rem;
+    padding: 4rem 10rem;
     padding-bottom: 8rem;
     color: white;
     text-align: center;

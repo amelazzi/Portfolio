@@ -15,7 +15,7 @@ const FadingBackground = styled(BaseModalBackground)`
 
 const StyledHeader = styled.div`
     background: ${gray};
-    padding: 1rem 20rem;
+    padding: 1rem 10rem;
     width: 100%;
     font-size: 18px;
     display: flex;

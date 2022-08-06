@@ -7,7 +7,7 @@ import VolunteeringCard from './volunteeringCard'
 const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 4rem 20rem;
+    padding: 4rem 10rem;
     color: white;
     h1{
         font-size: 32px;

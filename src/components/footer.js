@@ -6,7 +6,7 @@ import SocialMedia from './SocialMedial'
 
 const StyledFooter = styled.div`
     background: ${dark};
-    padding: 1rem 20rem;
+    padding: 1rem 10rem;
     width: 100%;
     font-size: 18px;
     display: flex;

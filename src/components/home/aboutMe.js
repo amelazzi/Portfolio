@@ -9,7 +9,7 @@ const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 20rem;
+    padding: 4rem 10rem;
     width: 100%;
     color: white;
     @media (max-width: 48em) {

@@ -7,7 +7,7 @@ import SoftSkill from './softSkill'
 const StyledSection = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 4rem 20rem;
+    padding: 4rem 10rem;
     color: white;
     h1{
         text-align: center;

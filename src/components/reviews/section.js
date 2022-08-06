@@ -8,7 +8,7 @@ import { dark } from "../../styles/colors";
 
 
 const StyledSection = styled.div`
-    padding: 4rem 20rem;
+    padding: 4rem 10rem;
     background: ${dark};
     color: white;
     text-align: center;
