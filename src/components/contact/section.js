@@ -72,7 +72,7 @@ const Section = () => {
             <h1> CONTACT ME</h1>
             <CardsContainer>
                 <Card icon={require("../../images/address-icon.png")} title="Address"
-                    info="Orange Business Services - OBS, 9 Boulevard Nicéphore Niépce, 44300 Nantes"/>
+                    info="Nantes 44300, France"/>
                 <Card icon={require("../../images/mail-icon.png")} title="Email"
                     info="amelias.azzi@gmail.com"/>
                 <Card icon={require("../../images/phone-icon.png")} title="Mobile"
