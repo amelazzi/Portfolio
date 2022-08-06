@@ -102,11 +102,20 @@ const TharwaStacks = TharwaStackList.map((stack) =>
     <Stack key={stack.name}>{stack.name}</Stack>
 )
 
+const CentralTaxitackList = [{name: "Flutter"}, {name: "Node JS"}, {name: "PostgreSQL"}, {name: "React JS"}]
+const CentralTaxiStacks = CentralTaxitackList.map((stack) =>
+    <Stack key={stack.name}>{stack.name}</Stack>
+)
+
 const WhatIDo = () => {
     return(
         <StyledSection id="projects">
             <h1> MY PROJECTS </h1>
             <CardsContainer>
+                <Card icon={require("../../images/centraltaxi-logo.png")}
+                        title="CentralTaxi"
+                        resume="Mobile and Web platform, allowing users to book a car and driver to transport them including a dashboard for admins"
+                        stacks={CentralTaxiStacks}/>
                 <Card icon={require("../../images/iWatch-logo.png")}
                         title="DataSharedLibrary"
                         resume="Shared library Android/iOS for network layer" 
