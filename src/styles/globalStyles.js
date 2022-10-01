@@ -1,5 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
-import { fontFamily } from './types'
+import { createGlobalStyle } from 'styled-components'
 import { dark } from './colors'
 
 
