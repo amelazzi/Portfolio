@@ -10,6 +10,7 @@ import OrmEvaluatorLogo from "../../images/orm-evaluator-logo.png"
 import TetrateLogo from "../../images/tetrate-logo.png"
 import BavusLogo from "../../images/bavus-logo.png"
 import TharwaLogo from "../../images/tharwa-logo.png"
+import SharedLibraryLogo from "../../images/shared-library-logo.png"
 
 
 const StyledSection = styled.div`
@@ -123,7 +124,7 @@ const WhatIDo = () => {
                         title="CentralTaxi"
                         resume="Mobile and Web platform, allowing users to book a car and driver to transport them including a dashboard for admins"
                         stacks={CentralTaxiStacks}/>
-                <Card icon={iWatchLogo}
+                <Card icon={SharedLibraryLogo}
                         title="DataSharedLibrary"
                         resume="Shared library Android/iOS for network layer" 
                         stacks={KMPStacks}/>
