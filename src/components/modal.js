@@ -4,6 +4,8 @@ import Modal from "styled-react-modal"
 import styled from "styled-components"
 import { Link } from "gatsby";
 import { dark, bordo } from "../styles/colors"
+import CloseIcon from "../images/close-icon.png"
+import BurgerIcon from "../images/menu-icon.png"
 
 const MenuIcon = styled.img`
     display: none;
@@ -87,7 +89,7 @@ class FancyModalButton extends React.Component {
   render() {
     return (
       <>
-        <MenuIcon src={require("../images/menu-icon.png")} onClick={this.toggleModal} alt="menu"/>
+        <MenuIcon src={BurgerIcon} onClick={this.toggleModal} alt="menu"/>
         <StyledModal
             isOpen={this.state.isOpen}
             afterOpen={this.afterOpen}
@@ -97,12 +99,9 @@ class FancyModalButton extends React.Component {
             opacity={this.state.opacity}
             backgroundProps={{ opacity: this.state.opacity }}
         >
-            <img src={require("../images/close-icon.png")} onClick={this.toggleModal} alt="close" />
+            <img src={CloseIcon} onClick={this.toggleModal} alt="close" />
             <HomeLink to="/#home" onClick={this.toggleModal} > Home </HomeLink>
-            <StyledLink to="/#experiences" onClick={this.toggleModal} > Experiences </StyledLink>
-            <StyledLink to="/#skills" onClick={this.toggleModal} > Skills </StyledLink>
             <StyledLink to="/#projects" onClick={this.toggleModal} > Projects </StyledLink>
-            <StyledLink to="/#events" onClick={this.toggleModal} > Events </StyledLink>
             <StyledLink to="/#contact" onClick={this.toggleModal} > Contact </StyledLink>
         </StyledModal>
       </>
