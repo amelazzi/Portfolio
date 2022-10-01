@@ -5,7 +5,6 @@ import Card from './card'
 import { bordo, gray } from "../../styles/colors";
 
 const StyledSection = styled.div`
-    margin-top: 4rem;
     width: 100%;
     color: white;
     text-align: center;

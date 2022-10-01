@@ -88,7 +88,7 @@ const StyledMenu = styled.div`
     }
 `;
 
-const navItems = ['home', 'skills', 'projects', 'events', 'contact']
+const navItems = ['home', 'projects', 'events', 'contact']
 
 const Header = () => {
     return(
@@ -114,7 +114,6 @@ const Header = () => {
                 <nav>
                     <Scrollspy items={navItems} currentClassName="active">
                         <Link to="/#home"> Home </Link>
-                        <Link to="/#skills"> Skills </Link>
                         <Link to="/#projects"> Projects </Link>
                         <Link to="/#events"> Events </Link>
                         <Link to="/#contact"> Contact </Link>
