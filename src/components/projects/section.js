@@ -2,7 +2,15 @@ import React from "react"
 import styled from 'styled-components'
 
 import Card from './card'
-import { bordo, gray } from "../../styles/colors";
+import { bordo, gray } from "../../styles/colors"
+import CentraleTaxiLogo from "../../images/centraltaxi-logo.png"
+import iWatchLogo from "../../images/iWatch-logo.png"
+import TorpicsLogo from "../../images/torpics-logo.png"
+import OrmEvaluatorLogo from "../../images/orm-evaluator-logo.png"
+import TetrateLogo from "../../images/tetrate-logo.png"
+import BavusLogo from "../../images/bavus-logo.png"
+import TharwaLogo from "../../images/tharwa-logo.png"
+
 
 const StyledSection = styled.div`
     width: 100%;
@@ -111,37 +119,37 @@ const WhatIDo = () => {
         <StyledSection id="projects">
             <h1> MY PROJECTS </h1>
             <CardsContainer>
-                <Card icon={require("../../images/centraltaxi-logo.png")}
+                <Card icon={CentraleTaxiLogo}
                         title="CentralTaxi"
                         resume="Mobile and Web platform, allowing users to book a car and driver to transport them including a dashboard for admins"
                         stacks={CentralTaxiStacks}/>
-                <Card icon={require("../../images/iWatch-logo.png")}
+                <Card icon={iWatchLogo}
                         title="DataSharedLibrary"
                         resume="Shared library Android/iOS for network layer" 
                         stacks={KMPStacks}/>
-                    <Card icon={require("../../images/iWatch-logo.png")}
+                    <Card icon={iWatchLogo}
                         title="iWatch"
                         resume="Android application to be updated on popular movies/series based on TMDB Api"
                         stacks={IwatchStacks}/>
-                    <Card icon={require("../../images/torpics-logo.png")}
+                    <Card icon={TorpicsLogo}
                         title="Torpics"
                         resume="Generate Java code based on heterogeneous databases and sensors, taking on concederation different 
                             functionalities to get an homogene and global database"
                         stacks={TorpicsStacks}/>
-                    <Card icon={require("../../images/orm-evaluator-logo.png")}
+                    <Card icon={OrmEvaluatorLogo}
                         title="ORM Evaluator"
                         resume="Software to analyse and evaluate Java ORMs on different databases, taking on concederation the complexity 
                             of database schema and data size"
                         stacks={OrmStacks}/>
-                    <Card icon={require("../../images/tetrate-logo.png")}
+                    <Card icon={TetrateLogo}
                         title="Tetrate"
                         resume="Rebuild Tetrate website from scratch without using any library. Build for fun and to master CSS tricks"
                         stacks={TetrateStacks}/>
-                    <Card icon={require("../../images/bavus-logo.png")}
+                    <Card icon={BavusLogo}
                         title="bAvus"
                         resume="Android Road Condition Application, to aware tracks about the road condition and predict the best way to take"
                         stacks={BavusStacks}/>
-                    <Card icon={require("../../images/tharwa-logo.png")}
+                    <Card icon={TharwaLogo}
                         title="Tharwa"
                         resume="Platform for eBanking. The platform integrates a web client used by bankers and managers and a mobile Android/iOS application 
                         for clients and employers"

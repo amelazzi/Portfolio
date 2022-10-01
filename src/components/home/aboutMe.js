@@ -3,6 +3,8 @@ import React from "react"
 import styled from 'styled-components'
 import { bordo, gray } from "../../styles/colors"
 import resumePDF from "../../Resume_Amel_AZZI.pdf"
+import aboutPicture from "../../images/about-picture.png"
+import DownloadIcon from "../../images/download-icon.png"
 
 const StyledSection = styled.div`
     background: ${gray};
@@ -121,7 +123,7 @@ const AboutMe = () => {
     return(
         <StyledSection>
             <PictureContainer>
-                <img src={require("../../images/about-picture.png")} alt="about-pic"/>
+                <img src={aboutPicture} alt="about-pic"/>
             </PictureContainer>
             <OverView>
                 <h1> ABOUT ME </h1>
@@ -138,7 +140,7 @@ const AboutMe = () => {
                 <DownloadCV href={resumePDF} download> 
                     Download CV 
                     <IconContainer>
-                        <img src={require("../../images/download-icon.png")} alt="download-icon"/>
+                        <img src={DownloadIcon} alt="download-icon"/>
                     </IconContainer>    
                 </DownloadCV>{` `}
             </OverView>

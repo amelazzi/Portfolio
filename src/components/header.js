@@ -6,6 +6,12 @@ import SocialMedia from "../components/SocialMedial"
 import Modal from "./modal"
 import { ModalProvider, BaseModalBackground } from "styled-react-modal"
 import Scrollspy from 'react-scrollspy'
+import GithubWhiteLogo from "../images/github-white.png"
+import GithubLogo from "../images/github.png"
+import TwitterWhiteLogo from "../images/twitter-white.png"
+import TwitterLogo from "../images/twitter.png"
+import LinkedInWhiteLogo from "../images/linkedIn-white.png"
+import LinkedInLogo from "../images/linkedIn.png"
 
 
 const FadingBackground = styled(BaseModalBackground)`
@@ -94,16 +100,16 @@ const Header = () => {
     return(
         <StyledHeader>
             <StyledSocialMedia>
-                <SocialMedia img={require("../images/github-white.png")} 
-                    imgBackground={require("../images/github.png")}
+                <SocialMedia img={GithubWhiteLogo} 
+                    imgBackground={GithubLogo}
                     link="https://github.com/amelazzi"/>
 
-                <SocialMedia img={require("../images/twitter-white.png")} 
-                    imgBackground={require("../images/twitter.png")}
+                <SocialMedia img={TwitterWhiteLogo} 
+                    imgBackground={TwitterLogo}
                     link="https://twitter.com/amelias_azzi"/>
 
-                <SocialMedia img={require("../images/linkedIn-white.png")} 
-                    imgBackground={require("../images/linkedIn.png")}
+                <SocialMedia img={LinkedInWhiteLogo} 
+                    imgBackground={LinkedInLogo}
                     link="https://www.linkedin.com/in/amel-azzi-625446b2/"/>
 
             </StyledSocialMedia>

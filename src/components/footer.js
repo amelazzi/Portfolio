@@ -3,6 +3,12 @@ import styled from 'styled-components'
 import {dark} from "../styles/colors"
 
 import SocialMedia from './SocialMedial'
+import GithubDarkLogo from "../images/github-dark.png"
+import GithubBordoLogo from "../images/github-bordo.png"
+import TwitterDarkLogo from "../images/twitter-dark.png"
+import TwitterBordoLogo from "../images/twitter-bordo.png"
+import LinkedInDarkLogo from "../images/linkedIn-dark.png"
+import rLinkedInBordoLogo from "../images/linkedIn-bordo.png"
 
 const StyledFooter = styled.div`
     background: ${dark};
@@ -50,16 +56,16 @@ const Footer = () => {
         <StyledFooter>
             <p> All Rights Reserved Amel AZZI © 2020 - {currentYear}</p>
             <StyledSocialMedia>
-            <SocialMedia img={require("../images/github-dark.png")} 
-                    imgBackground={require("../images/github-bordo.png")}
+            <SocialMedia img={GithubDarkLogo}
+                    imgBackground={GithubBordoLogo}
                     link="https://github.com/amelazzi"/>
 
-                <SocialMedia img={require("../images/twitter-dark.png")} 
-                    imgBackground={require("../images/twitter-bordo.png")}
+                <SocialMedia img={TwitterDarkLogo} 
+                    imgBackground={TwitterBordoLogo}
                     link="https://twitter.com/amelias_azzi"/>
 
-                <SocialMedia img={require("../images/linkedIn-dark.png")} 
-                    imgBackground={require("../images/linkedIn-bordo.png")}
+                <SocialMedia img={LinkedInDarkLogo} 
+                    imgBackground={rLinkedInBordoLogo}
                     link="https://www.linkedin.com/in/amel-azzi-625446b2/"/>
             </StyledSocialMedia>
         </StyledFooter>

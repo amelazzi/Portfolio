@@ -2,6 +2,7 @@ import React from "react"
 
 import styled from 'styled-components'
 import { dark, bordo } from "../../styles/colors"
+import ProfilePicture from "../../images/profile-picture.png"
 
 const StyledSection = styled.div`
     display: flex;
@@ -138,7 +139,7 @@ const Section = () => {
             </Information>
             <StyledPicture>
                 <PictureContainer>
-                    <img src={require("../../images/profile-picture.png")} alt="profile-pic" />
+                    <img src={ProfilePicture} alt="profile-pic" />
                 </PictureContainer>
             </StyledPicture>
         </StyledSection>

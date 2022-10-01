@@ -3,12 +3,17 @@ import styled from 'styled-components'
 
 import Card from './card'
 import Form from './form'
+import AddressIcon from "../../images/address-icon.png"
+import EmailIcon from "../../images/mail-icon.png"
+import MobileIcon from "../../images/phone-icon.png"
 
-const backgroundImg = require("../../images/world-map.png")
+import backgroundImg from "../../images/world-map.png"
 
 const StyledSection = styled.div`
     padding: 4rem 10rem;
     background-image: url(${backgroundImg});
+    background-size: contain;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
     h1{
@@ -71,11 +76,11 @@ const Section = () => {
         <StyledSection id="contact">
             <h1> CONTACT ME</h1>
             <CardsContainer>
-                <Card icon={require("../../images/address-icon.png")} title="Address"
+                <Card icon={AddressIcon} title="Address"
                     info="Nantes 44000, France"/>
-                <Card icon={require("../../images/mail-icon.png")} title="Email"
+                <Card icon={EmailIcon} title="Email"
                     info="amelias.azzi@gmail.com"/>
-                <Card icon={require("../../images/phone-icon.png")} title="Mobile"
+                <Card icon={MobileIcon} title="Mobile"
                     info="+33 669 57 35 82"/>
             </CardsContainer>
             <FormContainer>
