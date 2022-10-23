@@ -42,10 +42,15 @@ class SocialMedia extends React.Component {
 
     render(){
         return(
-            <StyledSocialMedia >
-            <a href={this.props.link}>
-                <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} alt="sm-logo"/>
-            </a>
+            <StyledSocialMedia>
+                <a href={this.props.link}>
+                    <div onMouseOver={this.handleMouseOver}
+                         onFocus={this.handleMouseOver}
+                         onMouseOut={this.handleMouseOut}
+                         onBlur={this.handleMouseOut}>
+                        <img src={this.state.imgSrc} alt="sm-logo"/>
+                    </div>
+                </a>
             </StyledSocialMedia> 
         )
     }
