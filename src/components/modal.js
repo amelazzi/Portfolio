@@ -99,7 +99,9 @@ class FancyModalButton extends React.Component {
             opacity={this.state.opacity}
             backgroundProps={{ opacity: this.state.opacity }}
         >
-            <img src={CloseIcon} onClick={this.toggleModal} alt="close" />
+            <div onClick={this.toggleModal} role="button" tabIndex={0} onKeyPress={this.toggleModal}>
+                <img src={CloseIcon} alt="close" />
+            </div>
             <HomeLink to="/#home" onClick={this.toggleModal} > Home </HomeLink>
             <StyledLink to="/#projects" onClick={this.toggleModal} > Projects </StyledLink>
             <StyledLink to="/#contact" onClick={this.toggleModal} > Contact </StyledLink>

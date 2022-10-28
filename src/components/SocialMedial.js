@@ -44,7 +44,9 @@ class SocialMedia extends React.Component {
         return(
             <StyledSocialMedia>
                 <a href={this.props.link}>
-                    <div onMouseOver={this.handleMouseOver}
+                    <div role="button"
+                         tabIndex={0}
+                         onMouseOver={this.handleMouseOver}
                          onFocus={this.handleMouseOver}
                          onMouseOut={this.handleMouseOut}
                          onBlur={this.handleMouseOut}>
